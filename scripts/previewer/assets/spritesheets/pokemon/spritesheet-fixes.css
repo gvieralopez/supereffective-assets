@@ -1,0 +1,105 @@
+
+
+/* Spritesheet Fixes */
+
+.pkm-vivillon-meadow {
+  background-position: 58.064516129032% 63.829787234043%;
+}
+
+.pkm-vivillon,
+.pkm-vivillon-icy-snow {
+  background-position: 38.709677419355% 63.829787234043%;
+}
+
+.pkm-minior,
+.pkm-minior-meteor {
+  background-position: 29.032258064516% 76.595744680851%;
+}
+
+.pkm-minior-red {
+  background-position: 32.258064516129% 76.595744680851%;
+}
+
+.pkmi-minior,
+.pkmi-minior-meteor {
+  background-position: 61.290322580645% 70.212765957447%;
+}
+
+.pkmi-minior-red {
+  background-position: 64.516129032258% 70.212765957447%;
+}
+
+.pkm-xerneas-neutral,
+.pkm-xerneas {
+  background-position: 58.064516129032% 70.212765957447%;
+}
+
+.pkm-xerneas-active {
+  background-position: 61.290322580645% 70.212765957447%;
+}
+
+.pkmi-xerneas-neutral,
+.pkmi-xerneas {
+  background-position: 90.322580645161% 63.829787234043%;
+}
+
+.pkmi-xerneas-active {
+  background-position: 93.548387096774% 63.829787234043%;
+}
+
+.pkm-greninja-battle-bond,
+.pkm-greninja--battle-bond {
+  background-position: 9.6774193548387% 63.829787234043%;
+}
+
+.pkmi-greninja-battle-bond,
+.pkmi-greninja--battle-bond {
+  background-position: 48.387096774194% 57.446808510638%;
+}
+
+.pkm-rockruff-own-tempo,
+.pkm-rockruff--own-tempo {
+  background-position: 74.193548387097% 72.340425531915%;
+}
+
+.pkmi-rockruff-own-tempo,
+.pkmi-rockruff--own-tempo {
+  background-position: 3.2258064516129% 68.085106382979%;
+}
+
+.pkm-zygarde-power-construct,
+.pkm-zygarde--power-construct {
+  background-position: 67.741935483871% 70.212765957447%;
+}
+
+.pkm-zygarde-10-power-construct,
+.pkm-zygarde-10--power-construct {
+  background-position: 70.967741935484% 70.212765957447%;
+}
+
+.pkmi-zygarde-power-construct,
+.pkmi-zygarde--power-construct {
+  background-position: 100% 63.829787234043%;
+}
+
+.pkmi-zygarde-10-power-construct,
+.pkmi-zygarde-10--power-construct {
+  background-position: 0 65.957446808511%;
+}
+
+.pkm-arceus,
+.pkm-arceus-normal,
+.pkm-arceus-legendary {
+  background-position: 32.258064516129% 48.936170212766%;
+}
+
+.pkmi-arceus,
+.pkmi-arceus-normal,
+.pkmi-arceus-legendary {
+  background-position: 70.967741935484% 42.553191489362%;
+}
+
+.pkm-wrapper .pkm {
+  image-rendering: optimizespeed;
+}
+
