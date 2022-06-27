@@ -1,36 +1,5 @@
-/** {*/
-/*    position: relative;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-* {
-  position: relative;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-  line-height: 1.6;
-  tab-size: 4;
-  -webkit-text-size-adjust: 100%;
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+@import "reset.css";
+@import "game-tags.css";
 
 .max-600 {
   max-width: 600px;
@@ -147,11 +116,13 @@ a:hover {
   text-align: center;
 }
 
+.icons .pkm,
 .pokemon-list .pkm {
   width: 68px;
   height: 68px;
 }
 
+.icons .pkmi,
 .pokemon-list .pkmi {
   width: 68px;
   height: 56px;
@@ -285,138 +256,12 @@ a:hover {
 
 /* ------------------------------------------ */
 
-.gameset-tag {
-  border-radius: 0.5rem;
-  background-color: #a4a4a4;
-  border: 1px solid #737373;
-  color: #fff;
-  margin: 2px;
-  display: inline-block;
-  padding: 2px 4px;
-  font-style: normal;
-  text-shadow: 1px 1px black;
-  /*opacity: 0.7;*/
-  cursor: default;
-  user-select: none;
-}
-
-
-.gameset-e, .gameset-c, .gameset-y {
-  padding: 2px 8px;
-}
-
-.gameset-rb {
-  background: linear-gradient(to right, #ff0000 50%, #0000ff 50%);
-}
-
-.gameset-y {
-  background: linear-gradient(to right, #ffff00 50%, #ffff00 50%);
-  color: black;
-  text-shadow: 1px 1px white;
-}
-
-.gameset-gs {
-  background: linear-gradient(to right, #ffb702 50%, #85939f 50%);
-}
-
-.gameset-c {
-  background: linear-gradient(to right, #a38eff 50%, #a38eff 50%);
-}
-
-.gameset-rs {
-  background: linear-gradient(to right, #ff0000 0%, #0000ff 100%);
-}
-
-.gameset-e {
-  background: linear-gradient(to right, #5aab3c 50%, #5aab3c 50%);
-  padding: 2px 8px;
-}
-
-.gameset-frlg {
-  background: linear-gradient(to right, #ff6a00 50%, #5aab3c 50%);
-}
-
-.gameset-dp {
-  background: linear-gradient(to right, #7ab6f6 50%, #de9ad9 50%);
-}
-
-.gameset-pt {
-  background: linear-gradient(to right, #ead6b8 0%, #838383 100%);
-  color: black;
-  text-shadow: 1px 1px #fff;
-}
-
-.gameset-hgss {
-  background: linear-gradient(to right, #ffb702 0%, #85939f 100%);
-}
-
-.gameset-bw {
-  background: linear-gradient(to right, #000 50%, #fff 50%);
-  text-shadow: 1px 1px black;
-}
-
-.gameset-b2w2 {
-  background: linear-gradient(to right, #000 1%, #fff 100%);
-}
-
-.gameset-xy {
-  background: linear-gradient(to right, #365ea6 50%, #d22f4b 50%);
-}
-
-.gameset-oras {
-  background: linear-gradient(to right, #ff0000 0%, #0000ff 100%);
-}
-
-.gameset-sm {
-  background: linear-gradient(to right, #ff8000 50%, #5e00ff 50%);
-}
-
-.gameset-usum {
-  background: linear-gradient(to right, #ff8000 0%, #5e00ff 100%);
-}
-
-.gameset-go {
-  background: linear-gradient(to right, #00c4ff 0%, #0066ff 70%);
-}
-
-.gameset-lgpe {
-  background: linear-gradient(to right, #ffd500 50%, #986734 50%);
-}
-
-.gameset-swsh {
-  background: linear-gradient(to right, #32b1c7 50%, #d22f86 50%);
-}
-
-.gameset-home {
-  background: linear-gradient(to right, #6fc209 10%, #07c9bc 100%);
-}
-
-.gameset-bdsp {
-  background: linear-gradient(to right, #7ab6f6 0%, #de9ad9 100%);
-}
-
-.gameset-la {
-  background: linear-gradient(to right, #ffffff 10%, #ffc70e 100%);
-  color: black;
-  text-shadow: 1px 1px #fff;
-}
-
-.gameset-sv {
-  background: linear-gradient(to right, #f84830 50%, #b05eff 50%);
-}
-
-.gameset-none {
-  background: #bbb;
-}
-
-
-/* ------------------------------------------ */
-
 .json-editor-form {
   margin: 1rem auto;
   padding: 1rem;
   max-width: 1200px;
 }
+
 div.json-editor {
   width: auto;
   min-width: 200px;
@@ -542,3 +387,90 @@ i.pkm-sprigatito {
   background-size: 64px;
 }
 
+label input {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.w-800 {
+  position: relative;
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+.w-900 {
+  position: relative;
+  max-width: 900px;
+  margin: 1rem auto;
+}
+
+.gameset-input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-gap: 0.5rem;
+  text-align: center;
+}
+
+.gameset-input-grid label {
+  cursor: pointer;
+}
+
+.gameset-input-grid .gameset-tag {
+  width: 44px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.gameset-input-grid .gameset-tag:hover {
+  border-color: black;
+  box-shadow: 0 0 0 2px black;
+}
+
+.gameset-input-grid input[type="radio"],
+.gameset-input-grid input[type="checkbox"] {
+  width: 16px;
+  margin: 0;
+  vertical-align: middle;
+  border-color: black;
+  background: white;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 0 0 2px black;
+  height: 16px;
+  cursor: pointer;
+}
+
+.gameset-input-grid input[type="radio"] {
+  border-radius: 100px;
+}
+
+.gameset-input-grid input[type="radio"]:checked {
+  background: yellow;
+  box-shadow: 0 0 0 2px black, 0 0 10px 6px blue;
+}
+
+.gameset-input-grid input[type="checkbox"]:checked {
+  background: yellow;
+  box-shadow: 0 0 0 2px black, 0 0 5px 3px blue;
+}
+
+.gameset-input-grid input[type="radio"]:checked:after,
+.gameset-input-grid input[type="checkbox"]:checked:after {
+  content: "●";
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.gameset-input-grid input[type="checkbox"]:checked:after {
+  content: "✓";
+  font-weight: bold;
+}
