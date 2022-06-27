@@ -138,13 +138,13 @@
 }
 
 .gameset-oras {
-  background: linear-gradient(to right, #ff0000 0%, #0000ff 100%);
+  background: linear-gradient(to right, #d92929 0%, #0c58c9 100%);
 }
 .gameset-oras-or {
-  background: #ff0000;
+  background: #d92929;
 }
 .gameset-oras-as {
-  background: #0000ff;
+  background: #0c58c9;
 }
 
 .gameset-sm {
