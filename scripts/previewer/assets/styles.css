@@ -432,26 +432,30 @@ label input {
   width: 16px;
   margin: 0;
   vertical-align: middle;
-  border-color: black;
   background: white;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  box-shadow: 0 0 0 2px black;
+  box-shadow: 0 0 0 2px #ddd;
   height: 16px;
   cursor: pointer;
+}
+
+.gameset-input-grid label:hover input[type="radio"],
+.gameset-input-grid label:hover input[type="checkbox"] {
+  box-shadow: 0 0 0 2px #777;
 }
 
 .gameset-input-grid input[type="radio"] {
   border-radius: 100px;
 }
 
-.gameset-input-grid input[type="radio"]:checked {
+.gameset-input-grid label input[type="radio"]:checked {
   background: yellow;
   box-shadow: 0 0 0 2px black, 0 0 10px 6px blue;
 }
 
-.gameset-input-grid input[type="checkbox"]:checked {
+.gameset-input-grid label input[type="checkbox"]:checked {
   background: yellow;
   box-shadow: 0 0 0 2px black, 0 0 5px 3px blue;
 }
@@ -473,4 +477,13 @@ label input {
 .gameset-input-grid input[type="checkbox"]:checked:after {
   content: "✓";
   font-weight: bold;
+}
+
+.pkmids-pagination li a {
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  font-size:12px;
 }
