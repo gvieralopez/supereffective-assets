@@ -340,53 +340,6 @@ div.json-editor {
   object-fit: cover;
 }
 
-
-i.pkm-sprigatito {
-  background: url("/assets/spritesheets/pokemon/sv/sprigatito.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-fuecoco {
-  background: url("/assets/spritesheets/pokemon/sv/fuecoco.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-quaxly {
-  background: url("/assets/spritesheets/pokemon/sv/quaxly.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-smoliv {
-  background: url("/assets/spritesheets/pokemon/sv/smoliv.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-pawmi {
-  background: url("/assets/spritesheets/pokemon/sv/pawmi.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-lechonk {
-  background: url("/assets/spritesheets/pokemon/sv/lechonk.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-koraidon {
-  background: url("/assets/spritesheets/pokemon/sv/koraidon.png") no-repeat center;
-  background-size: 64px;
-}
-
-.pkm-miraidon {
-  background: url("/assets/spritesheets/pokemon/sv/miraidon.png") no-repeat center;
-  background-size: 64px;
-
-}
-
-.pkm-floette-eternal {
-  background: url("/assets/spritesheets/pokemon/floette-eternal.png") no-repeat center;
-  background-size: 64px;
-}
-
 label input {
   display: inline-block;
   margin-right: 1em;
