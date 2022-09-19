@@ -3,11 +3,11 @@
     display: inline-block;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-image: url(pokemon-home-regular.webp?v=1659575368);
+    background-image: url(pokemon-home-regular.webp?v=1663556333);
     background-size: 3200% 4800%;
 }
 .pkm.shiny, .shiny .pkm {
-    background-image: url(pokemon-home-shiny.webp?v=1659575368);
+    background-image: url(pokemon-home-shiny.webp?v=1663556333);
 }
 .pkm-egg {background-position: 0 0;}
 .pkm-unknown {background-position: 3.2258064516129% 0;}
@@ -1422,13 +1422,18 @@
 .pkm-fidough {background-position: 6.4516129032258% 93.617021276596%;}
 .pkm-koraidon {background-position: 9.6774193548387% 93.617021276596%;}
 .pkm-miraidon {background-position: 12.903225806452% 93.617021276596%;}
+.pkm-cyclizar {background-position: 16.129032258065% 93.617021276596%;}
+.pkm-armarouge {background-position: 19.354838709677% 93.617021276596%;}
+.pkm-ceruledge {background-position: 22.58064516129% 93.617021276596%;}
+.pkm-grafaiai {background-position: 25.806451612903% 93.617021276596%;}
+.pkm-klawf {background-position: 29.032258064516% 93.617021276596%;}
 
 
 .pkmi {
     display: inline-block;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-image: url(pokemon-menu-regular.webp?v=1659575368);
+    background-image: url(pokemon-menu-regular.webp?v=1663556333);
     background-size: 3200% 4800%;
 }
 
@@ -1439,7 +1444,7 @@
     image-rendering: pixelated;
 }
 .pkmi.shiny, .shiny .pkmi {
-    background-image: url(pokemon-menu-shiny.webp?v=1659575368);
+    background-image: url(pokemon-menu-shiny.webp?v=1663556333);
 }
 .pkmi-egg {background-position: 0 0;}
 .pkmi-egg-manaphy {background-position: 3.2258064516129% 0;}
@@ -2759,3 +2764,8 @@
 .pkmi-fidough {background-position: 9.6774193548387% 87.234042553192%;}
 .pkmi-koraidon {background-position: 12.903225806452% 87.234042553192%;}
 .pkmi-miraidon {background-position: 16.129032258065% 87.234042553192%;}
+.pkmi-cyclizar {background-position: 19.354838709677% 87.234042553192%;}
+.pkmi-armarouge {background-position: 22.58064516129% 87.234042553192%;}
+.pkmi-ceruledge {background-position: 25.806451612903% 87.234042553192%;}
+.pkmi-grafaiai {background-position: 29.032258064516% 87.234042553192%;}
+.pkmi-klawf {background-position: 32.258064516129% 87.234042553192%;}
