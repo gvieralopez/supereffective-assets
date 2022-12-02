@@ -3,11 +3,11 @@
     display: inline-block;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-image: url(pokemon-home-regular.webp?v=1668990530);
+    background-image: url(pokemon-home-regular.webp?v=1669984324);
     background-size: 3200% 4800%;
 }
 .pkm.shiny, .shiny .pkm {
-    background-image: url(pokemon-home-shiny.webp?v=1668990530);
+    background-image: url(pokemon-home-shiny.webp?v=1669984324);
 }
 .pkm-egg {background-position: 0 0;}
 .pkm-unknown-swsh {background-position: 3.2258064516129% 0;}
@@ -1535,7 +1535,7 @@
     display: inline-block;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-image: url(pokemon-menu-regular.webp?v=1668990530);
+    background-image: url(pokemon-menu-regular.webp?v=1669984324);
     background-size: 3200% 4800%;
 }
 
@@ -1546,7 +1546,7 @@
     image-rendering: pixelated;
 }
 .pkmi.shiny, .shiny .pkmi {
-    background-image: url(pokemon-menu-shiny.webp?v=1668990530);
+    background-image: url(pokemon-menu-shiny.webp?v=1669984324);
 }
 .pkmi-egg {background-position: 0 0;}
 .pkmi-egg-manaphy {background-position: 3.2258064516129% 0;}
