@@ -3,13 +3,13 @@
     display: inline-block;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-image: url(spritesheet.webp?v=1669984325);
+    background-image: url(spritesheet.webp?v=1669984326), url(spritesheet-shadow-40.png?v=1669984326);
     background-size: 4000% 4000%;
 }
 
 
 .pkm.shiny, .shiny .pkm {
-    background-image: url(spritesheet-shiny.webp?v=1669984325);
+    background-image: url(spritesheet-shiny.webp?v=1669984325), url(spritesheet-shadow-40.png?v=1669984326);
 }
 
 .pkm-unknown-swsh {background-position: 0 0;}
