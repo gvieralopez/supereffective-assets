@@ -6,40 +6,27 @@ const path = require('path')
 const dataDir = path.resolve(path.join(__dirname, '..', 'data'))
 
 const fixes = {
-  fix001_newFields: data => {
-    // add new fields
+  fix001: entry => {
+    // mutate entry
 
-    return data
+    return entry
   },
 }
 
 ;(() => {
-  const pkmFile = path.join(dataDir, 'pokemon.json')
-  // fix pokemon entries
-  const jsonContent = fs.readFileSync(pkmFile, 'utf8')
-  const pokemonList = JSON.parse(jsonContent)
+  const dataFile = path.join(dataDir, 'pokemon.json')
+  // load entries
+  const jsonContent = fs.readFileSync(dataFile, 'utf8')
+  const entries = JSON.parse(jsonContent)
 
-  const modifiedList = pokemonList.map(pkm => {
-    const newData = fixes.fix001_newFields(pkm)
-    console.log(`fixed ${pkm.id}`)
+  // make modifications
+  const modifiedEntries = entries.map(entry => {
+    const modifiedEntry = fixes.fix001(entry)
+    console.log(`fixed ${entry.id}`)
 
-    return newData
+    return modifiedEntry
   })
 
-  // write back
-  fs.writeFileSync(pkmFile, JSON.stringify(modifiedList, null, 2))
+  // write file back
+  fs.writeFileSync(dataFile, JSON.stringify(modifiedEntries, null, 2))
 })()
-
-// const combineData = () => {
-//   const jsonContent = fs.readFileSync(path.join(dataDir, 'pokemon.json'), 'utf8')
-//   const pokemonIds = JSON.parse(jsonContent)
-
-//   const pokes = pokemonIds.map(id => {
-//     const pkmFile = path.join(dataDir, 'pokemon', `entries/${id}.json`)
-//     const pkm = JSON.parse(fs.readFileSync(pkmFile, 'utf8'))
-
-//     return pkm
-//   })
-
-//   fs.writeFileSync(path.join(dataDir, 'pokemon.json'), JSON.stringify(pokes, null, 2))
-// }
