@@ -1,0 +1,6 @@
+images/characters/**/*.png
+images/pokemon/**/*.png
+images/pokemon/**/*.webp
+scripts/**/*.png
+scripts/**/*.webp
+*.html

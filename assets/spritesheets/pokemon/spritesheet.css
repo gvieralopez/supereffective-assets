@@ -1,0 +1,4651 @@
+.pkm {
+  display: inline-block;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(spritesheet.webp?v=1669984326), url(spritesheet-shadow-40.png?v=1669984326);
+  background-size: 4000% 4000%;
+}
+
+.pkm.shiny,
+.shiny .pkm {
+  background-image: url(spritesheet-shiny.webp?v=1669984325),
+    url(spritesheet-shadow-40.png?v=1669984326);
+}
+
+.pkm-unknown-swsh {
+  background-position: 0 0;
+}
+.pkm-unknown-sv {
+  background-position: 2.564102564102564% 0;
+}
+.pkm-egg {
+  background-position: 5.128205128205128% 0;
+}
+.pkm-bulbasaur {
+  background-position: 7.6923076923076925% 0;
+}
+.pkm-ivysaur {
+  background-position: 10.256410256410255% 0;
+}
+.pkm-venusaur {
+  background-position: 12.82051282051282% 0;
+}
+.pkm-venusaur-f {
+  background-position: 15.384615384615385% 0;
+}
+.pkm-venusaur-mega {
+  background-position: 17.94871794871795% 0;
+}
+.pkm-venusaur-gmax {
+  background-position: 20.51282051282051% 0;
+}
+.pkm-charmander {
+  background-position: 23.076923076923077% 0;
+}
+.pkm-charmeleon {
+  background-position: 25.64102564102564% 0;
+}
+.pkm-charizard {
+  background-position: 28.205128205128204% 0;
+}
+.pkm-charizard-mega-x {
+  background-position: 30.76923076923077% 0;
+}
+.pkm-charizard-mega-y {
+  background-position: 33.33333333333333% 0;
+}
+.pkm-charizard-gmax {
+  background-position: 35.8974358974359% 0;
+}
+.pkm-squirtle {
+  background-position: 38.46153846153847% 0;
+}
+.pkm-wartortle {
+  background-position: 41.02564102564102% 0;
+}
+.pkm-blastoise {
+  background-position: 43.58974358974359% 0;
+}
+.pkm-blastoise-mega {
+  background-position: 46.15384615384615% 0;
+}
+.pkm-blastoise-gmax {
+  background-position: 48.717948717948715% 0;
+}
+.pkm-caterpie {
+  background-position: 51.28205128205128% 0;
+}
+.pkm-metapod {
+  background-position: 53.84615384615385% 0;
+}
+.pkm-butterfree {
+  background-position: 56.41025641025641% 0;
+}
+.pkm-butterfree-f {
+  background-position: 58.97435897435898% 0;
+}
+.pkm-butterfree-gmax {
+  background-position: 61.53846153846154% 0;
+}
+.pkm-weedle {
+  background-position: 64.1025641025641% 0;
+}
+.pkm-kakuna {
+  background-position: 66.66666666666666% 0;
+}
+.pkm-beedrill {
+  background-position: 69.23076923076923% 0;
+}
+.pkm-beedrill-mega {
+  background-position: 71.7948717948718% 0;
+}
+.pkm-pidgey {
+  background-position: 74.35897435897436% 0;
+}
+.pkm-pidgeotto {
+  background-position: 76.92307692307693% 0;
+}
+.pkm-pidgeot {
+  background-position: 79.48717948717949% 0;
+}
+.pkm-pidgeot-mega {
+  background-position: 82.05128205128204% 0;
+}
+.pkm-rattata {
+  background-position: 84.61538461538461% 0;
+}
+.pkm-rattata-f {
+  background-position: 87.17948717948718% 0;
+}
+.pkm-rattata-alola {
+  background-position: 89.74358974358975% 0;
+}
+.pkm-raticate {
+  background-position: 92.3076923076923% 0;
+}
+.pkm-raticate-f {
+  background-position: 94.87179487179486% 0;
+}
+.pkm-raticate-alola {
+  background-position: 97.43589743589743% 0;
+}
+.pkm-spearow {
+  background-position: 100% 0;
+}
+.pkm-fearow {
+  background-position: 0 2.564102564102564%;
+}
+.pkm-ekans {
+  background-position: 2.564102564102564% 2.564102564102564%;
+}
+.pkm-arbok {
+  background-position: 5.128205128205128% 2.564102564102564%;
+}
+.pkm-pikachu {
+  background-position: 7.6923076923076925% 2.564102564102564%;
+}
+.pkm-pikachu-f {
+  background-position: 10.256410256410255% 2.564102564102564%;
+}
+.pkm-pikachu-gmax {
+  background-position: 12.82051282051282% 2.564102564102564%;
+}
+.pkm-pikachu-original {
+  background-position: 15.384615384615385% 2.564102564102564%;
+}
+.pkm-pikachu-hoenn {
+  background-position: 17.94871794871795% 2.564102564102564%;
+}
+.pkm-pikachu-sinnoh {
+  background-position: 20.51282051282051% 2.564102564102564%;
+}
+.pkm-pikachu-unova {
+  background-position: 23.076923076923077% 2.564102564102564%;
+}
+.pkm-pikachu-kalos {
+  background-position: 25.64102564102564% 2.564102564102564%;
+}
+.pkm-pikachu-alola {
+  background-position: 28.205128205128204% 2.564102564102564%;
+}
+.pkm-pikachu-partner {
+  background-position: 30.76923076923077% 2.564102564102564%;
+}
+.pkm-pikachu-world {
+  background-position: 33.33333333333333% 2.564102564102564%;
+}
+.pkm-raichu {
+  background-position: 35.8974358974359% 2.564102564102564%;
+}
+.pkm-raichu-f {
+  background-position: 38.46153846153847% 2.564102564102564%;
+}
+.pkm-raichu-alola {
+  background-position: 41.02564102564102% 2.564102564102564%;
+}
+.pkm-sandshrew {
+  background-position: 43.58974358974359% 2.564102564102564%;
+}
+.pkm-sandshrew-alola {
+  background-position: 46.15384615384615% 2.564102564102564%;
+}
+.pkm-sandslash {
+  background-position: 48.717948717948715% 2.564102564102564%;
+}
+.pkm-sandslash-alola {
+  background-position: 51.28205128205128% 2.564102564102564%;
+}
+.pkm-nidoranf {
+  background-position: 53.84615384615385% 2.564102564102564%;
+}
+.pkm-nidorina {
+  background-position: 56.41025641025641% 2.564102564102564%;
+}
+.pkm-nidoqueen {
+  background-position: 58.97435897435898% 2.564102564102564%;
+}
+.pkm-nidoranm {
+  background-position: 61.53846153846154% 2.564102564102564%;
+}
+.pkm-nidorino {
+  background-position: 64.1025641025641% 2.564102564102564%;
+}
+.pkm-nidoking {
+  background-position: 66.66666666666666% 2.564102564102564%;
+}
+.pkm-clefairy {
+  background-position: 69.23076923076923% 2.564102564102564%;
+}
+.pkm-clefable {
+  background-position: 71.7948717948718% 2.564102564102564%;
+}
+.pkm-vulpix {
+  background-position: 74.35897435897436% 2.564102564102564%;
+}
+.pkm-vulpix-alola {
+  background-position: 76.92307692307693% 2.564102564102564%;
+}
+.pkm-ninetales {
+  background-position: 79.48717948717949% 2.564102564102564%;
+}
+.pkm-ninetales-alola {
+  background-position: 82.05128205128204% 2.564102564102564%;
+}
+.pkm-jigglypuff {
+  background-position: 84.61538461538461% 2.564102564102564%;
+}
+.pkm-wigglytuff {
+  background-position: 87.17948717948718% 2.564102564102564%;
+}
+.pkm-zubat {
+  background-position: 89.74358974358975% 2.564102564102564%;
+}
+.pkm-zubat-f {
+  background-position: 92.3076923076923% 2.564102564102564%;
+}
+.pkm-golbat {
+  background-position: 94.87179487179486% 2.564102564102564%;
+}
+.pkm-golbat-f {
+  background-position: 97.43589743589743% 2.564102564102564%;
+}
+.pkm-oddish {
+  background-position: 100% 2.564102564102564%;
+}
+.pkm-gloom {
+  background-position: 0 5.128205128205128%;
+}
+.pkm-gloom-f {
+  background-position: 2.564102564102564% 5.128205128205128%;
+}
+.pkm-vileplume {
+  background-position: 5.128205128205128% 5.128205128205128%;
+}
+.pkm-vileplume-f {
+  background-position: 7.6923076923076925% 5.128205128205128%;
+}
+.pkm-paras {
+  background-position: 10.256410256410255% 5.128205128205128%;
+}
+.pkm-parasect {
+  background-position: 12.82051282051282% 5.128205128205128%;
+}
+.pkm-venonat {
+  background-position: 15.384615384615385% 5.128205128205128%;
+}
+.pkm-venomoth {
+  background-position: 17.94871794871795% 5.128205128205128%;
+}
+.pkm-diglett {
+  background-position: 20.51282051282051% 5.128205128205128%;
+}
+.pkm-diglett-alola {
+  background-position: 23.076923076923077% 5.128205128205128%;
+}
+.pkm-dugtrio {
+  background-position: 25.64102564102564% 5.128205128205128%;
+}
+.pkm-dugtrio-alola {
+  background-position: 28.205128205128204% 5.128205128205128%;
+}
+.pkm-meowth {
+  background-position: 30.76923076923077% 5.128205128205128%;
+}
+.pkm-meowth-alola {
+  background-position: 33.33333333333333% 5.128205128205128%;
+}
+.pkm-meowth-galar {
+  background-position: 35.8974358974359% 5.128205128205128%;
+}
+.pkm-meowth-gmax {
+  background-position: 38.46153846153847% 5.128205128205128%;
+}
+.pkm-persian {
+  background-position: 41.02564102564102% 5.128205128205128%;
+}
+.pkm-persian-alola {
+  background-position: 43.58974358974359% 5.128205128205128%;
+}
+.pkm-psyduck {
+  background-position: 46.15384615384615% 5.128205128205128%;
+}
+.pkm-golduck {
+  background-position: 48.717948717948715% 5.128205128205128%;
+}
+.pkm-mankey {
+  background-position: 51.28205128205128% 5.128205128205128%;
+}
+.pkm-primeape {
+  background-position: 53.84615384615385% 5.128205128205128%;
+}
+.pkm-growlithe {
+  background-position: 56.41025641025641% 5.128205128205128%;
+}
+.pkm-growlithe-hisui {
+  background-position: 58.97435897435898% 5.128205128205128%;
+}
+.pkm-arcanine {
+  background-position: 61.53846153846154% 5.128205128205128%;
+}
+.pkm-arcanine-hisui {
+  background-position: 64.1025641025641% 5.128205128205128%;
+}
+.pkm-poliwag {
+  background-position: 66.66666666666666% 5.128205128205128%;
+}
+.pkm-poliwhirl {
+  background-position: 69.23076923076923% 5.128205128205128%;
+}
+.pkm-poliwrath {
+  background-position: 71.7948717948718% 5.128205128205128%;
+}
+.pkm-abra {
+  background-position: 74.35897435897436% 5.128205128205128%;
+}
+.pkm-kadabra {
+  background-position: 76.92307692307693% 5.128205128205128%;
+}
+.pkm-kadabra-f {
+  background-position: 79.48717948717949% 5.128205128205128%;
+}
+.pkm-alakazam {
+  background-position: 82.05128205128204% 5.128205128205128%;
+}
+.pkm-alakazam-f {
+  background-position: 84.61538461538461% 5.128205128205128%;
+}
+.pkm-alakazam-mega {
+  background-position: 87.17948717948718% 5.128205128205128%;
+}
+.pkm-machop {
+  background-position: 89.74358974358975% 5.128205128205128%;
+}
+.pkm-machoke {
+  background-position: 92.3076923076923% 5.128205128205128%;
+}
+.pkm-machamp {
+  background-position: 94.87179487179486% 5.128205128205128%;
+}
+.pkm-machamp-gmax {
+  background-position: 97.43589743589743% 5.128205128205128%;
+}
+.pkm-bellsprout {
+  background-position: 100% 5.128205128205128%;
+}
+.pkm-weepinbell {
+  background-position: 0 7.6923076923076925%;
+}
+.pkm-victreebel {
+  background-position: 2.564102564102564% 7.6923076923076925%;
+}
+.pkm-tentacool {
+  background-position: 5.128205128205128% 7.6923076923076925%;
+}
+.pkm-tentacruel {
+  background-position: 7.6923076923076925% 7.6923076923076925%;
+}
+.pkm-geodude {
+  background-position: 10.256410256410255% 7.6923076923076925%;
+}
+.pkm-geodude-alola {
+  background-position: 12.82051282051282% 7.6923076923076925%;
+}
+.pkm-graveler {
+  background-position: 15.384615384615385% 7.6923076923076925%;
+}
+.pkm-graveler-alola {
+  background-position: 17.94871794871795% 7.6923076923076925%;
+}
+.pkm-golem {
+  background-position: 20.51282051282051% 7.6923076923076925%;
+}
+.pkm-golem-alola {
+  background-position: 23.076923076923077% 7.6923076923076925%;
+}
+.pkm-ponyta {
+  background-position: 25.64102564102564% 7.6923076923076925%;
+}
+.pkm-ponyta-galar {
+  background-position: 28.205128205128204% 7.6923076923076925%;
+}
+.pkm-rapidash {
+  background-position: 30.76923076923077% 7.6923076923076925%;
+}
+.pkm-rapidash-galar {
+  background-position: 33.33333333333333% 7.6923076923076925%;
+}
+.pkm-slowpoke {
+  background-position: 35.8974358974359% 7.6923076923076925%;
+}
+.pkm-slowpoke-galar {
+  background-position: 38.46153846153847% 7.6923076923076925%;
+}
+.pkm-slowbro {
+  background-position: 41.02564102564102% 7.6923076923076925%;
+}
+.pkm-slowbro-mega {
+  background-position: 43.58974358974359% 7.6923076923076925%;
+}
+.pkm-slowbro-galar {
+  background-position: 46.15384615384615% 7.6923076923076925%;
+}
+.pkm-magnemite {
+  background-position: 48.717948717948715% 7.6923076923076925%;
+}
+.pkm-magneton {
+  background-position: 51.28205128205128% 7.6923076923076925%;
+}
+.pkm-farfetchd {
+  background-position: 53.84615384615385% 7.6923076923076925%;
+}
+.pkm-farfetchd-galar {
+  background-position: 56.41025641025641% 7.6923076923076925%;
+}
+.pkm-doduo {
+  background-position: 58.97435897435898% 7.6923076923076925%;
+}
+.pkm-doduo-f {
+  background-position: 61.53846153846154% 7.6923076923076925%;
+}
+.pkm-dodrio {
+  background-position: 64.1025641025641% 7.6923076923076925%;
+}
+.pkm-dodrio-f {
+  background-position: 66.66666666666666% 7.6923076923076925%;
+}
+.pkm-seel {
+  background-position: 69.23076923076923% 7.6923076923076925%;
+}
+.pkm-dewgong {
+  background-position: 71.7948717948718% 7.6923076923076925%;
+}
+.pkm-grimer {
+  background-position: 74.35897435897436% 7.6923076923076925%;
+}
+.pkm-grimer-alola {
+  background-position: 76.92307692307693% 7.6923076923076925%;
+}
+.pkm-muk {
+  background-position: 79.48717948717949% 7.6923076923076925%;
+}
+.pkm-muk-alola {
+  background-position: 82.05128205128204% 7.6923076923076925%;
+}
+.pkm-shellder {
+  background-position: 84.61538461538461% 7.6923076923076925%;
+}
+.pkm-cloyster {
+  background-position: 87.17948717948718% 7.6923076923076925%;
+}
+.pkm-gastly {
+  background-position: 89.74358974358975% 7.6923076923076925%;
+}
+.pkm-haunter {
+  background-position: 92.3076923076923% 7.6923076923076925%;
+}
+.pkm-gengar {
+  background-position: 94.87179487179486% 7.6923076923076925%;
+}
+.pkm-gengar-mega {
+  background-position: 97.43589743589743% 7.6923076923076925%;
+}
+.pkm-gengar-gmax {
+  background-position: 100% 7.6923076923076925%;
+}
+.pkm-onix {
+  background-position: 0 10.256410256410255%;
+}
+.pkm-drowzee {
+  background-position: 2.564102564102564% 10.256410256410255%;
+}
+.pkm-hypno {
+  background-position: 5.128205128205128% 10.256410256410255%;
+}
+.pkm-hypno-f {
+  background-position: 7.6923076923076925% 10.256410256410255%;
+}
+.pkm-krabby {
+  background-position: 10.256410256410255% 10.256410256410255%;
+}
+.pkm-kingler {
+  background-position: 12.82051282051282% 10.256410256410255%;
+}
+.pkm-kingler-gmax {
+  background-position: 15.384615384615385% 10.256410256410255%;
+}
+.pkm-voltorb {
+  background-position: 17.94871794871795% 10.256410256410255%;
+}
+.pkm-voltorb-hisui {
+  background-position: 20.51282051282051% 10.256410256410255%;
+}
+.pkm-electrode {
+  background-position: 23.076923076923077% 10.256410256410255%;
+}
+.pkm-electrode-hisui {
+  background-position: 25.64102564102564% 10.256410256410255%;
+}
+.pkm-exeggcute {
+  background-position: 28.205128205128204% 10.256410256410255%;
+}
+.pkm-exeggutor {
+  background-position: 30.76923076923077% 10.256410256410255%;
+}
+.pkm-exeggutor-alola {
+  background-position: 33.33333333333333% 10.256410256410255%;
+}
+.pkm-cubone {
+  background-position: 35.8974358974359% 10.256410256410255%;
+}
+.pkm-marowak {
+  background-position: 38.46153846153847% 10.256410256410255%;
+}
+.pkm-marowak-alola {
+  background-position: 41.02564102564102% 10.256410256410255%;
+}
+.pkm-hitmonlee {
+  background-position: 43.58974358974359% 10.256410256410255%;
+}
+.pkm-hitmonchan {
+  background-position: 46.15384615384615% 10.256410256410255%;
+}
+.pkm-lickitung {
+  background-position: 48.717948717948715% 10.256410256410255%;
+}
+.pkm-koffing {
+  background-position: 51.28205128205128% 10.256410256410255%;
+}
+.pkm-weezing {
+  background-position: 53.84615384615385% 10.256410256410255%;
+}
+.pkm-weezing-galar {
+  background-position: 56.41025641025641% 10.256410256410255%;
+}
+.pkm-rhyhorn {
+  background-position: 58.97435897435898% 10.256410256410255%;
+}
+.pkm-rhyhorn-f {
+  background-position: 61.53846153846154% 10.256410256410255%;
+}
+.pkm-rhydon {
+  background-position: 64.1025641025641% 10.256410256410255%;
+}
+.pkm-rhydon-f {
+  background-position: 66.66666666666666% 10.256410256410255%;
+}
+.pkm-chansey {
+  background-position: 69.23076923076923% 10.256410256410255%;
+}
+.pkm-tangela {
+  background-position: 71.7948717948718% 10.256410256410255%;
+}
+.pkm-kangaskhan {
+  background-position: 74.35897435897436% 10.256410256410255%;
+}
+.pkm-kangaskhan-mega {
+  background-position: 76.92307692307693% 10.256410256410255%;
+}
+.pkm-horsea {
+  background-position: 79.48717948717949% 10.256410256410255%;
+}
+.pkm-seadra {
+  background-position: 82.05128205128204% 10.256410256410255%;
+}
+.pkm-goldeen {
+  background-position: 84.61538461538461% 10.256410256410255%;
+}
+.pkm-goldeen-f {
+  background-position: 87.17948717948718% 10.256410256410255%;
+}
+.pkm-seaking {
+  background-position: 89.74358974358975% 10.256410256410255%;
+}
+.pkm-seaking-f {
+  background-position: 92.3076923076923% 10.256410256410255%;
+}
+.pkm-staryu {
+  background-position: 94.87179487179486% 10.256410256410255%;
+}
+.pkm-starmie {
+  background-position: 97.43589743589743% 10.256410256410255%;
+}
+.pkm-mrmime {
+  background-position: 100% 10.256410256410255%;
+}
+.pkm-mrmime-galar {
+  background-position: 0 12.82051282051282%;
+}
+.pkm-scyther {
+  background-position: 2.564102564102564% 12.82051282051282%;
+}
+.pkm-scyther-f {
+  background-position: 5.128205128205128% 12.82051282051282%;
+}
+.pkm-jynx {
+  background-position: 7.6923076923076925% 12.82051282051282%;
+}
+.pkm-electabuzz {
+  background-position: 10.256410256410255% 12.82051282051282%;
+}
+.pkm-magmar {
+  background-position: 12.82051282051282% 12.82051282051282%;
+}
+.pkm-pinsir {
+  background-position: 15.384615384615385% 12.82051282051282%;
+}
+.pkm-pinsir-mega {
+  background-position: 17.94871794871795% 12.82051282051282%;
+}
+.pkm-tauros {
+  background-position: 20.51282051282051% 12.82051282051282%;
+}
+.pkm-tauros-paldea {
+  background-position: 23.076923076923077% 12.82051282051282%;
+}
+.pkm-tauros-paldea-fire {
+  background-position: 25.64102564102564% 12.82051282051282%;
+}
+.pkm-tauros-paldea-water {
+  background-position: 28.205128205128204% 12.82051282051282%;
+}
+.pkm-magikarp {
+  background-position: 30.76923076923077% 12.82051282051282%;
+}
+.pkm-magikarp-f {
+  background-position: 33.33333333333333% 12.82051282051282%;
+}
+.pkm-gyarados {
+  background-position: 35.8974358974359% 12.82051282051282%;
+}
+.pkm-gyarados-f {
+  background-position: 38.46153846153847% 12.82051282051282%;
+}
+.pkm-gyarados-mega {
+  background-position: 41.02564102564102% 12.82051282051282%;
+}
+.pkm-lapras {
+  background-position: 43.58974358974359% 12.82051282051282%;
+}
+.pkm-lapras-gmax {
+  background-position: 46.15384615384615% 12.82051282051282%;
+}
+.pkm-ditto {
+  background-position: 48.717948717948715% 12.82051282051282%;
+}
+.pkm-eevee {
+  background-position: 51.28205128205128% 12.82051282051282%;
+}
+.pkm-eevee-f {
+  background-position: 53.84615384615385% 12.82051282051282%;
+}
+.pkm-eevee-gmax {
+  background-position: 56.41025641025641% 12.82051282051282%;
+}
+.pkm-vaporeon {
+  background-position: 58.97435897435898% 12.82051282051282%;
+}
+.pkm-jolteon {
+  background-position: 61.53846153846154% 12.82051282051282%;
+}
+.pkm-flareon {
+  background-position: 64.1025641025641% 12.82051282051282%;
+}
+.pkm-porygon {
+  background-position: 66.66666666666666% 12.82051282051282%;
+}
+.pkm-omanyte {
+  background-position: 69.23076923076923% 12.82051282051282%;
+}
+.pkm-omastar {
+  background-position: 71.7948717948718% 12.82051282051282%;
+}
+.pkm-kabuto {
+  background-position: 74.35897435897436% 12.82051282051282%;
+}
+.pkm-kabutops {
+  background-position: 76.92307692307693% 12.82051282051282%;
+}
+.pkm-aerodactyl {
+  background-position: 79.48717948717949% 12.82051282051282%;
+}
+.pkm-aerodactyl-mega {
+  background-position: 82.05128205128204% 12.82051282051282%;
+}
+.pkm-snorlax {
+  background-position: 84.61538461538461% 12.82051282051282%;
+}
+.pkm-snorlax-gmax {
+  background-position: 87.17948717948718% 12.82051282051282%;
+}
+.pkm-articuno {
+  background-position: 89.74358974358975% 12.82051282051282%;
+}
+.pkm-articuno-galar {
+  background-position: 92.3076923076923% 12.82051282051282%;
+}
+.pkm-zapdos {
+  background-position: 94.87179487179486% 12.82051282051282%;
+}
+.pkm-zapdos-galar {
+  background-position: 97.43589743589743% 12.82051282051282%;
+}
+.pkm-moltres {
+  background-position: 100% 12.82051282051282%;
+}
+.pkm-moltres-galar {
+  background-position: 0 15.384615384615385%;
+}
+.pkm-dratini {
+  background-position: 2.564102564102564% 15.384615384615385%;
+}
+.pkm-dragonair {
+  background-position: 5.128205128205128% 15.384615384615385%;
+}
+.pkm-dragonite {
+  background-position: 7.6923076923076925% 15.384615384615385%;
+}
+.pkm-mewtwo {
+  background-position: 10.256410256410255% 15.384615384615385%;
+}
+.pkm-mewtwo-mega-x {
+  background-position: 12.82051282051282% 15.384615384615385%;
+}
+.pkm-mewtwo-mega-y {
+  background-position: 15.384615384615385% 15.384615384615385%;
+}
+.pkm-mew {
+  background-position: 17.94871794871795% 15.384615384615385%;
+}
+.pkm-chikorita {
+  background-position: 20.51282051282051% 15.384615384615385%;
+}
+.pkm-bayleef {
+  background-position: 23.076923076923077% 15.384615384615385%;
+}
+.pkm-meganium {
+  background-position: 25.64102564102564% 15.384615384615385%;
+}
+.pkm-meganium-f {
+  background-position: 28.205128205128204% 15.384615384615385%;
+}
+.pkm-cyndaquil {
+  background-position: 30.76923076923077% 15.384615384615385%;
+}
+.pkm-quilava {
+  background-position: 33.33333333333333% 15.384615384615385%;
+}
+.pkm-typhlosion {
+  background-position: 35.8974358974359% 15.384615384615385%;
+}
+.pkm-typhlosion-hisui {
+  background-position: 38.46153846153847% 15.384615384615385%;
+}
+.pkm-totodile {
+  background-position: 41.02564102564102% 15.384615384615385%;
+}
+.pkm-croconaw {
+  background-position: 43.58974358974359% 15.384615384615385%;
+}
+.pkm-feraligatr {
+  background-position: 46.15384615384615% 15.384615384615385%;
+}
+.pkm-sentret {
+  background-position: 48.717948717948715% 15.384615384615385%;
+}
+.pkm-furret {
+  background-position: 51.28205128205128% 15.384615384615385%;
+}
+.pkm-hoothoot {
+  background-position: 53.84615384615385% 15.384615384615385%;
+}
+.pkm-noctowl {
+  background-position: 56.41025641025641% 15.384615384615385%;
+}
+.pkm-ledyba {
+  background-position: 58.97435897435898% 15.384615384615385%;
+}
+.pkm-ledyba-f {
+  background-position: 61.53846153846154% 15.384615384615385%;
+}
+.pkm-ledian {
+  background-position: 64.1025641025641% 15.384615384615385%;
+}
+.pkm-ledian-f {
+  background-position: 66.66666666666666% 15.384615384615385%;
+}
+.pkm-spinarak {
+  background-position: 69.23076923076923% 15.384615384615385%;
+}
+.pkm-ariados {
+  background-position: 71.7948717948718% 15.384615384615385%;
+}
+.pkm-crobat {
+  background-position: 74.35897435897436% 15.384615384615385%;
+}
+.pkm-chinchou {
+  background-position: 76.92307692307693% 15.384615384615385%;
+}
+.pkm-lanturn {
+  background-position: 79.48717948717949% 15.384615384615385%;
+}
+.pkm-pichu {
+  background-position: 82.05128205128204% 15.384615384615385%;
+}
+.pkm-cleffa {
+  background-position: 84.61538461538461% 15.384615384615385%;
+}
+.pkm-igglybuff {
+  background-position: 87.17948717948718% 15.384615384615385%;
+}
+.pkm-togepi {
+  background-position: 89.74358974358975% 15.384615384615385%;
+}
+.pkm-togetic {
+  background-position: 92.3076923076923% 15.384615384615385%;
+}
+.pkm-natu {
+  background-position: 94.87179487179486% 15.384615384615385%;
+}
+.pkm-xatu {
+  background-position: 97.43589743589743% 15.384615384615385%;
+}
+.pkm-xatu-f {
+  background-position: 100% 15.384615384615385%;
+}
+.pkm-mareep {
+  background-position: 0 17.94871794871795%;
+}
+.pkm-flaaffy {
+  background-position: 2.564102564102564% 17.94871794871795%;
+}
+.pkm-ampharos {
+  background-position: 5.128205128205128% 17.94871794871795%;
+}
+.pkm-ampharos-mega {
+  background-position: 7.6923076923076925% 17.94871794871795%;
+}
+.pkm-bellossom {
+  background-position: 10.256410256410255% 17.94871794871795%;
+}
+.pkm-marill {
+  background-position: 12.82051282051282% 17.94871794871795%;
+}
+.pkm-azumarill {
+  background-position: 15.384615384615385% 17.94871794871795%;
+}
+.pkm-sudowoodo {
+  background-position: 17.94871794871795% 17.94871794871795%;
+}
+.pkm-sudowoodo-f {
+  background-position: 20.51282051282051% 17.94871794871795%;
+}
+.pkm-politoed {
+  background-position: 23.076923076923077% 17.94871794871795%;
+}
+.pkm-politoed-f {
+  background-position: 25.64102564102564% 17.94871794871795%;
+}
+.pkm-hoppip {
+  background-position: 28.205128205128204% 17.94871794871795%;
+}
+.pkm-skiploom {
+  background-position: 30.76923076923077% 17.94871794871795%;
+}
+.pkm-jumpluff {
+  background-position: 33.33333333333333% 17.94871794871795%;
+}
+.pkm-aipom {
+  background-position: 35.8974358974359% 17.94871794871795%;
+}
+.pkm-aipom-f {
+  background-position: 38.46153846153847% 17.94871794871795%;
+}
+.pkm-sunkern {
+  background-position: 41.02564102564102% 17.94871794871795%;
+}
+.pkm-sunflora {
+  background-position: 43.58974358974359% 17.94871794871795%;
+}
+.pkm-yanma {
+  background-position: 46.15384615384615% 17.94871794871795%;
+}
+.pkm-wooper {
+  background-position: 48.717948717948715% 17.94871794871795%;
+}
+.pkm-wooper-f {
+  background-position: 51.28205128205128% 17.94871794871795%;
+}
+.pkm-wooper-paldea {
+  background-position: 53.84615384615385% 17.94871794871795%;
+}
+.pkm-quagsire {
+  background-position: 56.41025641025641% 17.94871794871795%;
+}
+.pkm-quagsire-f {
+  background-position: 58.97435897435898% 17.94871794871795%;
+}
+.pkm-espeon {
+  background-position: 61.53846153846154% 17.94871794871795%;
+}
+.pkm-umbreon {
+  background-position: 64.1025641025641% 17.94871794871795%;
+}
+.pkm-murkrow {
+  background-position: 66.66666666666666% 17.94871794871795%;
+}
+.pkm-murkrow-f {
+  background-position: 69.23076923076923% 17.94871794871795%;
+}
+.pkm-slowking {
+  background-position: 71.7948717948718% 17.94871794871795%;
+}
+.pkm-slowking-galar {
+  background-position: 74.35897435897436% 17.94871794871795%;
+}
+.pkm-misdreavus {
+  background-position: 76.92307692307693% 17.94871794871795%;
+}
+.pkm-unown,
+.pkm-unown-a {
+  background-position: 79.48717948717949% 17.94871794871795%;
+}
+.pkm-unown-b {
+  background-position: 82.05128205128204% 17.94871794871795%;
+}
+.pkm-unown-c {
+  background-position: 84.61538461538461% 17.94871794871795%;
+}
+.pkm-unown-d {
+  background-position: 87.17948717948718% 17.94871794871795%;
+}
+.pkm-unown-e {
+  background-position: 89.74358974358975% 17.94871794871795%;
+}
+.pkm-unown-f {
+  background-position: 92.3076923076923% 17.94871794871795%;
+}
+.pkm-unown-g {
+  background-position: 94.87179487179486% 17.94871794871795%;
+}
+.pkm-unown-h {
+  background-position: 97.43589743589743% 17.94871794871795%;
+}
+.pkm-unown-i {
+  background-position: 100% 17.94871794871795%;
+}
+.pkm-unown-j {
+  background-position: 0 20.51282051282051%;
+}
+.pkm-unown-k {
+  background-position: 2.564102564102564% 20.51282051282051%;
+}
+.pkm-unown-l {
+  background-position: 5.128205128205128% 20.51282051282051%;
+}
+.pkm-unown-m {
+  background-position: 7.6923076923076925% 20.51282051282051%;
+}
+.pkm-unown-n {
+  background-position: 10.256410256410255% 20.51282051282051%;
+}
+.pkm-unown-o {
+  background-position: 12.82051282051282% 20.51282051282051%;
+}
+.pkm-unown-p {
+  background-position: 15.384615384615385% 20.51282051282051%;
+}
+.pkm-unown-q {
+  background-position: 17.94871794871795% 20.51282051282051%;
+}
+.pkm-unown-r {
+  background-position: 20.51282051282051% 20.51282051282051%;
+}
+.pkm-unown-s {
+  background-position: 23.076923076923077% 20.51282051282051%;
+}
+.pkm-unown-t {
+  background-position: 25.64102564102564% 20.51282051282051%;
+}
+.pkm-unown-u {
+  background-position: 28.205128205128204% 20.51282051282051%;
+}
+.pkm-unown-v {
+  background-position: 30.76923076923077% 20.51282051282051%;
+}
+.pkm-unown-w {
+  background-position: 33.33333333333333% 20.51282051282051%;
+}
+.pkm-unown-x {
+  background-position: 35.8974358974359% 20.51282051282051%;
+}
+.pkm-unown-y {
+  background-position: 38.46153846153847% 20.51282051282051%;
+}
+.pkm-unown-z {
+  background-position: 41.02564102564102% 20.51282051282051%;
+}
+.pkm-unown-exclamation {
+  background-position: 43.58974358974359% 20.51282051282051%;
+}
+.pkm-unown-question {
+  background-position: 46.15384615384615% 20.51282051282051%;
+}
+.pkm-wobbuffet {
+  background-position: 48.717948717948715% 20.51282051282051%;
+}
+.pkm-wobbuffet-f {
+  background-position: 51.28205128205128% 20.51282051282051%;
+}
+.pkm-girafarig {
+  background-position: 53.84615384615385% 20.51282051282051%;
+}
+.pkm-girafarig-f {
+  background-position: 56.41025641025641% 20.51282051282051%;
+}
+.pkm-pineco {
+  background-position: 58.97435897435898% 20.51282051282051%;
+}
+.pkm-forretress {
+  background-position: 61.53846153846154% 20.51282051282051%;
+}
+.pkm-dunsparce {
+  background-position: 64.1025641025641% 20.51282051282051%;
+}
+.pkm-gligar {
+  background-position: 66.66666666666666% 20.51282051282051%;
+}
+.pkm-gligar-f {
+  background-position: 69.23076923076923% 20.51282051282051%;
+}
+.pkm-steelix {
+  background-position: 71.7948717948718% 20.51282051282051%;
+}
+.pkm-steelix-f {
+  background-position: 74.35897435897436% 20.51282051282051%;
+}
+.pkm-steelix-mega {
+  background-position: 76.92307692307693% 20.51282051282051%;
+}
+.pkm-snubbull {
+  background-position: 79.48717948717949% 20.51282051282051%;
+}
+.pkm-granbull {
+  background-position: 82.05128205128204% 20.51282051282051%;
+}
+.pkm-qwilfish {
+  background-position: 84.61538461538461% 20.51282051282051%;
+}
+.pkm-qwilfish-hisui {
+  background-position: 87.17948717948718% 20.51282051282051%;
+}
+.pkm-scizor {
+  background-position: 89.74358974358975% 20.51282051282051%;
+}
+.pkm-scizor-f {
+  background-position: 92.3076923076923% 20.51282051282051%;
+}
+.pkm-scizor-mega {
+  background-position: 94.87179487179486% 20.51282051282051%;
+}
+.pkm-shuckle {
+  background-position: 97.43589743589743% 20.51282051282051%;
+}
+.pkm-heracross {
+  background-position: 100% 20.51282051282051%;
+}
+.pkm-heracross-f {
+  background-position: 0 23.076923076923077%;
+}
+.pkm-heracross-mega {
+  background-position: 2.564102564102564% 23.076923076923077%;
+}
+.pkm-sneasel {
+  background-position: 5.128205128205128% 23.076923076923077%;
+}
+.pkm-sneasel-f {
+  background-position: 7.6923076923076925% 23.076923076923077%;
+}
+.pkm-sneasel-hisui {
+  background-position: 10.256410256410255% 23.076923076923077%;
+}
+.pkm-sneasel-hisui-f {
+  background-position: 12.82051282051282% 23.076923076923077%;
+}
+.pkm-teddiursa {
+  background-position: 15.384615384615385% 23.076923076923077%;
+}
+.pkm-ursaring {
+  background-position: 17.94871794871795% 23.076923076923077%;
+}
+.pkm-ursaring-f {
+  background-position: 20.51282051282051% 23.076923076923077%;
+}
+.pkm-slugma {
+  background-position: 23.076923076923077% 23.076923076923077%;
+}
+.pkm-magcargo {
+  background-position: 25.64102564102564% 23.076923076923077%;
+}
+.pkm-swinub {
+  background-position: 28.205128205128204% 23.076923076923077%;
+}
+.pkm-piloswine {
+  background-position: 30.76923076923077% 23.076923076923077%;
+}
+.pkm-piloswine-f {
+  background-position: 33.33333333333333% 23.076923076923077%;
+}
+.pkm-corsola {
+  background-position: 35.8974358974359% 23.076923076923077%;
+}
+.pkm-corsola-galar {
+  background-position: 38.46153846153847% 23.076923076923077%;
+}
+.pkm-remoraid {
+  background-position: 41.02564102564102% 23.076923076923077%;
+}
+.pkm-octillery {
+  background-position: 43.58974358974359% 23.076923076923077%;
+}
+.pkm-octillery-f {
+  background-position: 46.15384615384615% 23.076923076923077%;
+}
+.pkm-delibird {
+  background-position: 48.717948717948715% 23.076923076923077%;
+}
+.pkm-mantine {
+  background-position: 51.28205128205128% 23.076923076923077%;
+}
+.pkm-skarmory {
+  background-position: 53.84615384615385% 23.076923076923077%;
+}
+.pkm-houndour {
+  background-position: 56.41025641025641% 23.076923076923077%;
+}
+.pkm-houndoom {
+  background-position: 58.97435897435898% 23.076923076923077%;
+}
+.pkm-houndoom-f {
+  background-position: 61.53846153846154% 23.076923076923077%;
+}
+.pkm-houndoom-mega {
+  background-position: 64.1025641025641% 23.076923076923077%;
+}
+.pkm-kingdra {
+  background-position: 66.66666666666666% 23.076923076923077%;
+}
+.pkm-phanpy {
+  background-position: 69.23076923076923% 23.076923076923077%;
+}
+.pkm-donphan {
+  background-position: 71.7948717948718% 23.076923076923077%;
+}
+.pkm-donphan-f {
+  background-position: 74.35897435897436% 23.076923076923077%;
+}
+.pkm-porygon2 {
+  background-position: 76.92307692307693% 23.076923076923077%;
+}
+.pkm-stantler {
+  background-position: 79.48717948717949% 23.076923076923077%;
+}
+.pkm-smeargle {
+  background-position: 82.05128205128204% 23.076923076923077%;
+}
+.pkm-tyrogue {
+  background-position: 84.61538461538461% 23.076923076923077%;
+}
+.pkm-hitmontop {
+  background-position: 87.17948717948718% 23.076923076923077%;
+}
+.pkm-smoochum {
+  background-position: 89.74358974358975% 23.076923076923077%;
+}
+.pkm-elekid {
+  background-position: 92.3076923076923% 23.076923076923077%;
+}
+.pkm-magby {
+  background-position: 94.87179487179486% 23.076923076923077%;
+}
+.pkm-miltank {
+  background-position: 97.43589743589743% 23.076923076923077%;
+}
+.pkm-blissey {
+  background-position: 100% 23.076923076923077%;
+}
+.pkm-raikou {
+  background-position: 0 25.64102564102564%;
+}
+.pkm-entei {
+  background-position: 2.564102564102564% 25.64102564102564%;
+}
+.pkm-suicune {
+  background-position: 5.128205128205128% 25.64102564102564%;
+}
+.pkm-larvitar {
+  background-position: 7.6923076923076925% 25.64102564102564%;
+}
+.pkm-pupitar {
+  background-position: 10.256410256410255% 25.64102564102564%;
+}
+.pkm-tyranitar {
+  background-position: 12.82051282051282% 25.64102564102564%;
+}
+.pkm-tyranitar-mega {
+  background-position: 15.384615384615385% 25.64102564102564%;
+}
+.pkm-lugia {
+  background-position: 17.94871794871795% 25.64102564102564%;
+}
+.pkm-hooh {
+  background-position: 20.51282051282051% 25.64102564102564%;
+}
+.pkm-celebi {
+  background-position: 23.076923076923077% 25.64102564102564%;
+}
+.pkm-treecko {
+  background-position: 25.64102564102564% 25.64102564102564%;
+}
+.pkm-grovyle {
+  background-position: 28.205128205128204% 25.64102564102564%;
+}
+.pkm-sceptile {
+  background-position: 30.76923076923077% 25.64102564102564%;
+}
+.pkm-sceptile-mega {
+  background-position: 33.33333333333333% 25.64102564102564%;
+}
+.pkm-torchic {
+  background-position: 35.8974358974359% 25.64102564102564%;
+}
+.pkm-torchic-f {
+  background-position: 38.46153846153847% 25.64102564102564%;
+}
+.pkm-combusken {
+  background-position: 41.02564102564102% 25.64102564102564%;
+}
+.pkm-combusken-f {
+  background-position: 43.58974358974359% 25.64102564102564%;
+}
+.pkm-blaziken {
+  background-position: 46.15384615384615% 25.64102564102564%;
+}
+.pkm-blaziken-f {
+  background-position: 48.717948717948715% 25.64102564102564%;
+}
+.pkm-blaziken-mega {
+  background-position: 51.28205128205128% 25.64102564102564%;
+}
+.pkm-mudkip {
+  background-position: 53.84615384615385% 25.64102564102564%;
+}
+.pkm-marshtomp {
+  background-position: 56.41025641025641% 25.64102564102564%;
+}
+.pkm-swampert {
+  background-position: 58.97435897435898% 25.64102564102564%;
+}
+.pkm-swampert-mega {
+  background-position: 61.53846153846154% 25.64102564102564%;
+}
+.pkm-poochyena {
+  background-position: 64.1025641025641% 25.64102564102564%;
+}
+.pkm-mightyena {
+  background-position: 66.66666666666666% 25.64102564102564%;
+}
+.pkm-zigzagoon {
+  background-position: 69.23076923076923% 25.64102564102564%;
+}
+.pkm-zigzagoon-galar {
+  background-position: 71.7948717948718% 25.64102564102564%;
+}
+.pkm-linoone {
+  background-position: 74.35897435897436% 25.64102564102564%;
+}
+.pkm-linoone-galar {
+  background-position: 76.92307692307693% 25.64102564102564%;
+}
+.pkm-wurmple {
+  background-position: 79.48717948717949% 25.64102564102564%;
+}
+.pkm-silcoon {
+  background-position: 82.05128205128204% 25.64102564102564%;
+}
+.pkm-beautifly {
+  background-position: 84.61538461538461% 25.64102564102564%;
+}
+.pkm-beautifly-f {
+  background-position: 87.17948717948718% 25.64102564102564%;
+}
+.pkm-cascoon {
+  background-position: 89.74358974358975% 25.64102564102564%;
+}
+.pkm-dustox {
+  background-position: 92.3076923076923% 25.64102564102564%;
+}
+.pkm-dustox-f {
+  background-position: 94.87179487179486% 25.64102564102564%;
+}
+.pkm-lotad {
+  background-position: 97.43589743589743% 25.64102564102564%;
+}
+.pkm-lombre {
+  background-position: 100% 25.64102564102564%;
+}
+.pkm-ludicolo {
+  background-position: 0 28.205128205128204%;
+}
+.pkm-ludicolo-f {
+  background-position: 2.564102564102564% 28.205128205128204%;
+}
+.pkm-seedot {
+  background-position: 5.128205128205128% 28.205128205128204%;
+}
+.pkm-nuzleaf {
+  background-position: 7.6923076923076925% 28.205128205128204%;
+}
+.pkm-nuzleaf-f {
+  background-position: 10.256410256410255% 28.205128205128204%;
+}
+.pkm-shiftry {
+  background-position: 12.82051282051282% 28.205128205128204%;
+}
+.pkm-shiftry-f {
+  background-position: 15.384615384615385% 28.205128205128204%;
+}
+.pkm-taillow {
+  background-position: 17.94871794871795% 28.205128205128204%;
+}
+.pkm-swellow {
+  background-position: 20.51282051282051% 28.205128205128204%;
+}
+.pkm-wingull {
+  background-position: 23.076923076923077% 28.205128205128204%;
+}
+.pkm-pelipper {
+  background-position: 25.64102564102564% 28.205128205128204%;
+}
+.pkm-ralts {
+  background-position: 28.205128205128204% 28.205128205128204%;
+}
+.pkm-kirlia {
+  background-position: 30.76923076923077% 28.205128205128204%;
+}
+.pkm-gardevoir {
+  background-position: 33.33333333333333% 28.205128205128204%;
+}
+.pkm-gardevoir-mega {
+  background-position: 35.8974358974359% 28.205128205128204%;
+}
+.pkm-surskit {
+  background-position: 38.46153846153847% 28.205128205128204%;
+}
+.pkm-masquerain {
+  background-position: 41.02564102564102% 28.205128205128204%;
+}
+.pkm-shroomish {
+  background-position: 43.58974358974359% 28.205128205128204%;
+}
+.pkm-breloom {
+  background-position: 46.15384615384615% 28.205128205128204%;
+}
+.pkm-slakoth {
+  background-position: 48.717948717948715% 28.205128205128204%;
+}
+.pkm-vigoroth {
+  background-position: 51.28205128205128% 28.205128205128204%;
+}
+.pkm-slaking {
+  background-position: 53.84615384615385% 28.205128205128204%;
+}
+.pkm-nincada {
+  background-position: 56.41025641025641% 28.205128205128204%;
+}
+.pkm-ninjask {
+  background-position: 58.97435897435898% 28.205128205128204%;
+}
+.pkm-shedinja {
+  background-position: 61.53846153846154% 28.205128205128204%;
+}
+.pkm-whismur {
+  background-position: 64.1025641025641% 28.205128205128204%;
+}
+.pkm-loudred {
+  background-position: 66.66666666666666% 28.205128205128204%;
+}
+.pkm-exploud {
+  background-position: 69.23076923076923% 28.205128205128204%;
+}
+.pkm-makuhita {
+  background-position: 71.7948717948718% 28.205128205128204%;
+}
+.pkm-hariyama {
+  background-position: 74.35897435897436% 28.205128205128204%;
+}
+.pkm-azurill {
+  background-position: 76.92307692307693% 28.205128205128204%;
+}
+.pkm-nosepass {
+  background-position: 79.48717948717949% 28.205128205128204%;
+}
+.pkm-skitty {
+  background-position: 82.05128205128204% 28.205128205128204%;
+}
+.pkm-delcatty {
+  background-position: 84.61538461538461% 28.205128205128204%;
+}
+.pkm-sableye {
+  background-position: 87.17948717948718% 28.205128205128204%;
+}
+.pkm-sableye-mega {
+  background-position: 89.74358974358975% 28.205128205128204%;
+}
+.pkm-mawile {
+  background-position: 92.3076923076923% 28.205128205128204%;
+}
+.pkm-mawile-mega {
+  background-position: 94.87179487179486% 28.205128205128204%;
+}
+.pkm-aron {
+  background-position: 97.43589743589743% 28.205128205128204%;
+}
+.pkm-lairon {
+  background-position: 100% 28.205128205128204%;
+}
+.pkm-aggron {
+  background-position: 0 30.76923076923077%;
+}
+.pkm-aggron-mega {
+  background-position: 2.564102564102564% 30.76923076923077%;
+}
+.pkm-meditite {
+  background-position: 5.128205128205128% 30.76923076923077%;
+}
+.pkm-meditite-f {
+  background-position: 7.6923076923076925% 30.76923076923077%;
+}
+.pkm-medicham {
+  background-position: 10.256410256410255% 30.76923076923077%;
+}
+.pkm-medicham-f {
+  background-position: 12.82051282051282% 30.76923076923077%;
+}
+.pkm-medicham-mega {
+  background-position: 15.384615384615385% 30.76923076923077%;
+}
+.pkm-electrike {
+  background-position: 17.94871794871795% 30.76923076923077%;
+}
+.pkm-manectric {
+  background-position: 20.51282051282051% 30.76923076923077%;
+}
+.pkm-manectric-mega {
+  background-position: 23.076923076923077% 30.76923076923077%;
+}
+.pkm-plusle {
+  background-position: 25.64102564102564% 30.76923076923077%;
+}
+.pkm-minun {
+  background-position: 28.205128205128204% 30.76923076923077%;
+}
+.pkm-volbeat {
+  background-position: 30.76923076923077% 30.76923076923077%;
+}
+.pkm-illumise {
+  background-position: 33.33333333333333% 30.76923076923077%;
+}
+.pkm-roselia {
+  background-position: 35.8974358974359% 30.76923076923077%;
+}
+.pkm-roselia-f {
+  background-position: 38.46153846153847% 30.76923076923077%;
+}
+.pkm-gulpin {
+  background-position: 41.02564102564102% 30.76923076923077%;
+}
+.pkm-gulpin-f {
+  background-position: 43.58974358974359% 30.76923076923077%;
+}
+.pkm-swalot {
+  background-position: 46.15384615384615% 30.76923076923077%;
+}
+.pkm-swalot-f {
+  background-position: 48.717948717948715% 30.76923076923077%;
+}
+.pkm-carvanha {
+  background-position: 51.28205128205128% 30.76923076923077%;
+}
+.pkm-sharpedo {
+  background-position: 53.84615384615385% 30.76923076923077%;
+}
+.pkm-sharpedo-mega {
+  background-position: 56.41025641025641% 30.76923076923077%;
+}
+.pkm-wailmer {
+  background-position: 58.97435897435898% 30.76923076923077%;
+}
+.pkm-wailord {
+  background-position: 61.53846153846154% 30.76923076923077%;
+}
+.pkm-numel {
+  background-position: 64.1025641025641% 30.76923076923077%;
+}
+.pkm-numel-f {
+  background-position: 66.66666666666666% 30.76923076923077%;
+}
+.pkm-camerupt {
+  background-position: 69.23076923076923% 30.76923076923077%;
+}
+.pkm-camerupt-f {
+  background-position: 71.7948717948718% 30.76923076923077%;
+}
+.pkm-camerupt-mega {
+  background-position: 74.35897435897436% 30.76923076923077%;
+}
+.pkm-torkoal {
+  background-position: 76.92307692307693% 30.76923076923077%;
+}
+.pkm-spoink {
+  background-position: 79.48717948717949% 30.76923076923077%;
+}
+.pkm-grumpig {
+  background-position: 82.05128205128204% 30.76923076923077%;
+}
+.pkm-spinda {
+  background-position: 84.61538461538461% 30.76923076923077%;
+}
+.pkm-trapinch {
+  background-position: 87.17948717948718% 30.76923076923077%;
+}
+.pkm-vibrava {
+  background-position: 89.74358974358975% 30.76923076923077%;
+}
+.pkm-flygon {
+  background-position: 92.3076923076923% 30.76923076923077%;
+}
+.pkm-cacnea {
+  background-position: 94.87179487179486% 30.76923076923077%;
+}
+.pkm-cacturne {
+  background-position: 97.43589743589743% 30.76923076923077%;
+}
+.pkm-cacturne-f {
+  background-position: 100% 30.76923076923077%;
+}
+.pkm-swablu {
+  background-position: 0 33.33333333333333%;
+}
+.pkm-altaria {
+  background-position: 2.564102564102564% 33.33333333333333%;
+}
+.pkm-altaria-mega {
+  background-position: 5.128205128205128% 33.33333333333333%;
+}
+.pkm-zangoose {
+  background-position: 7.6923076923076925% 33.33333333333333%;
+}
+.pkm-seviper {
+  background-position: 10.256410256410255% 33.33333333333333%;
+}
+.pkm-lunatone {
+  background-position: 12.82051282051282% 33.33333333333333%;
+}
+.pkm-solrock {
+  background-position: 15.384615384615385% 33.33333333333333%;
+}
+.pkm-barboach {
+  background-position: 17.94871794871795% 33.33333333333333%;
+}
+.pkm-whiscash {
+  background-position: 20.51282051282051% 33.33333333333333%;
+}
+.pkm-corphish {
+  background-position: 23.076923076923077% 33.33333333333333%;
+}
+.pkm-crawdaunt {
+  background-position: 25.64102564102564% 33.33333333333333%;
+}
+.pkm-baltoy {
+  background-position: 28.205128205128204% 33.33333333333333%;
+}
+.pkm-claydol {
+  background-position: 30.76923076923077% 33.33333333333333%;
+}
+.pkm-lileep {
+  background-position: 33.33333333333333% 33.33333333333333%;
+}
+.pkm-cradily {
+  background-position: 35.8974358974359% 33.33333333333333%;
+}
+.pkm-anorith {
+  background-position: 38.46153846153847% 33.33333333333333%;
+}
+.pkm-armaldo {
+  background-position: 41.02564102564102% 33.33333333333333%;
+}
+.pkm-feebas {
+  background-position: 43.58974358974359% 33.33333333333333%;
+}
+.pkm-milotic {
+  background-position: 46.15384615384615% 33.33333333333333%;
+}
+.pkm-milotic-f {
+  background-position: 48.717948717948715% 33.33333333333333%;
+}
+.pkm-castform {
+  background-position: 51.28205128205128% 33.33333333333333%;
+}
+.pkm-castform-sunny {
+  background-position: 53.84615384615385% 33.33333333333333%;
+}
+.pkm-castform-rainy {
+  background-position: 56.41025641025641% 33.33333333333333%;
+}
+.pkm-castform-snowy {
+  background-position: 58.97435897435898% 33.33333333333333%;
+}
+.pkm-kecleon {
+  background-position: 61.53846153846154% 33.33333333333333%;
+}
+.pkm-shuppet {
+  background-position: 64.1025641025641% 33.33333333333333%;
+}
+.pkm-banette {
+  background-position: 66.66666666666666% 33.33333333333333%;
+}
+.pkm-banette-mega {
+  background-position: 69.23076923076923% 33.33333333333333%;
+}
+.pkm-duskull {
+  background-position: 71.7948717948718% 33.33333333333333%;
+}
+.pkm-dusclops {
+  background-position: 74.35897435897436% 33.33333333333333%;
+}
+.pkm-tropius {
+  background-position: 76.92307692307693% 33.33333333333333%;
+}
+.pkm-chimecho {
+  background-position: 79.48717948717949% 33.33333333333333%;
+}
+.pkm-absol {
+  background-position: 82.05128205128204% 33.33333333333333%;
+}
+.pkm-absol-mega {
+  background-position: 84.61538461538461% 33.33333333333333%;
+}
+.pkm-wynaut {
+  background-position: 87.17948717948718% 33.33333333333333%;
+}
+.pkm-snorunt {
+  background-position: 89.74358974358975% 33.33333333333333%;
+}
+.pkm-glalie {
+  background-position: 92.3076923076923% 33.33333333333333%;
+}
+.pkm-glalie-mega {
+  background-position: 94.87179487179486% 33.33333333333333%;
+}
+.pkm-spheal {
+  background-position: 97.43589743589743% 33.33333333333333%;
+}
+.pkm-sealeo {
+  background-position: 100% 33.33333333333333%;
+}
+.pkm-walrein {
+  background-position: 0 35.8974358974359%;
+}
+.pkm-clamperl {
+  background-position: 2.564102564102564% 35.8974358974359%;
+}
+.pkm-huntail {
+  background-position: 5.128205128205128% 35.8974358974359%;
+}
+.pkm-gorebyss {
+  background-position: 7.6923076923076925% 35.8974358974359%;
+}
+.pkm-relicanth {
+  background-position: 10.256410256410255% 35.8974358974359%;
+}
+.pkm-relicanth-f {
+  background-position: 12.82051282051282% 35.8974358974359%;
+}
+.pkm-luvdisc {
+  background-position: 15.384615384615385% 35.8974358974359%;
+}
+.pkm-bagon {
+  background-position: 17.94871794871795% 35.8974358974359%;
+}
+.pkm-shelgon {
+  background-position: 20.51282051282051% 35.8974358974359%;
+}
+.pkm-salamence {
+  background-position: 23.076923076923077% 35.8974358974359%;
+}
+.pkm-salamence-mega {
+  background-position: 25.64102564102564% 35.8974358974359%;
+}
+.pkm-beldum {
+  background-position: 28.205128205128204% 35.8974358974359%;
+}
+.pkm-metang {
+  background-position: 30.76923076923077% 35.8974358974359%;
+}
+.pkm-metagross {
+  background-position: 33.33333333333333% 35.8974358974359%;
+}
+.pkm-metagross-mega {
+  background-position: 35.8974358974359% 35.8974358974359%;
+}
+.pkm-regirock {
+  background-position: 38.46153846153847% 35.8974358974359%;
+}
+.pkm-regice {
+  background-position: 41.02564102564102% 35.8974358974359%;
+}
+.pkm-registeel {
+  background-position: 43.58974358974359% 35.8974358974359%;
+}
+.pkm-latias {
+  background-position: 46.15384615384615% 35.8974358974359%;
+}
+.pkm-latias-mega {
+  background-position: 48.717948717948715% 35.8974358974359%;
+}
+.pkm-latios {
+  background-position: 51.28205128205128% 35.8974358974359%;
+}
+.pkm-latios-mega {
+  background-position: 53.84615384615385% 35.8974358974359%;
+}
+.pkm-kyogre {
+  background-position: 56.41025641025641% 35.8974358974359%;
+}
+.pkm-kyogre-primal {
+  background-position: 58.97435897435898% 35.8974358974359%;
+}
+.pkm-groudon {
+  background-position: 61.53846153846154% 35.8974358974359%;
+}
+.pkm-groudon-primal {
+  background-position: 64.1025641025641% 35.8974358974359%;
+}
+.pkm-rayquaza {
+  background-position: 66.66666666666666% 35.8974358974359%;
+}
+.pkm-rayquaza-mega {
+  background-position: 69.23076923076923% 35.8974358974359%;
+}
+.pkm-jirachi {
+  background-position: 71.7948717948718% 35.8974358974359%;
+}
+.pkm-deoxys,
+.pkm-deoxys-normal {
+  background-position: 74.35897435897436% 35.8974358974359%;
+}
+.pkm-deoxys-attack {
+  background-position: 76.92307692307693% 35.8974358974359%;
+}
+.pkm-deoxys-defense {
+  background-position: 79.48717948717949% 35.8974358974359%;
+}
+.pkm-deoxys-speed {
+  background-position: 82.05128205128204% 35.8974358974359%;
+}
+.pkm-turtwig {
+  background-position: 84.61538461538461% 35.8974358974359%;
+}
+.pkm-grotle {
+  background-position: 87.17948717948718% 35.8974358974359%;
+}
+.pkm-torterra {
+  background-position: 89.74358974358975% 35.8974358974359%;
+}
+.pkm-chimchar {
+  background-position: 92.3076923076923% 35.8974358974359%;
+}
+.pkm-monferno {
+  background-position: 94.87179487179486% 35.8974358974359%;
+}
+.pkm-infernape {
+  background-position: 97.43589743589743% 35.8974358974359%;
+}
+.pkm-piplup {
+  background-position: 100% 35.8974358974359%;
+}
+.pkm-prinplup {
+  background-position: 0 38.46153846153847%;
+}
+.pkm-empoleon {
+  background-position: 2.564102564102564% 38.46153846153847%;
+}
+.pkm-starly {
+  background-position: 5.128205128205128% 38.46153846153847%;
+}
+.pkm-starly-f {
+  background-position: 7.6923076923076925% 38.46153846153847%;
+}
+.pkm-staravia {
+  background-position: 10.256410256410255% 38.46153846153847%;
+}
+.pkm-staravia-f {
+  background-position: 12.82051282051282% 38.46153846153847%;
+}
+.pkm-staraptor {
+  background-position: 15.384615384615385% 38.46153846153847%;
+}
+.pkm-staraptor-f {
+  background-position: 17.94871794871795% 38.46153846153847%;
+}
+.pkm-bidoof {
+  background-position: 20.51282051282051% 38.46153846153847%;
+}
+.pkm-bidoof-f {
+  background-position: 23.076923076923077% 38.46153846153847%;
+}
+.pkm-bibarel {
+  background-position: 25.64102564102564% 38.46153846153847%;
+}
+.pkm-bibarel-f {
+  background-position: 28.205128205128204% 38.46153846153847%;
+}
+.pkm-kricketot {
+  background-position: 30.76923076923077% 38.46153846153847%;
+}
+.pkm-kricketot-f {
+  background-position: 33.33333333333333% 38.46153846153847%;
+}
+.pkm-kricketune {
+  background-position: 35.8974358974359% 38.46153846153847%;
+}
+.pkm-kricketune-f {
+  background-position: 38.46153846153847% 38.46153846153847%;
+}
+.pkm-shinx {
+  background-position: 41.02564102564102% 38.46153846153847%;
+}
+.pkm-shinx-f {
+  background-position: 43.58974358974359% 38.46153846153847%;
+}
+.pkm-luxio {
+  background-position: 46.15384615384615% 38.46153846153847%;
+}
+.pkm-luxio-f {
+  background-position: 48.717948717948715% 38.46153846153847%;
+}
+.pkm-luxray {
+  background-position: 51.28205128205128% 38.46153846153847%;
+}
+.pkm-luxray-f {
+  background-position: 53.84615384615385% 38.46153846153847%;
+}
+.pkm-budew {
+  background-position: 56.41025641025641% 38.46153846153847%;
+}
+.pkm-roserade {
+  background-position: 58.97435897435898% 38.46153846153847%;
+}
+.pkm-roserade-f {
+  background-position: 61.53846153846154% 38.46153846153847%;
+}
+.pkm-cranidos {
+  background-position: 64.1025641025641% 38.46153846153847%;
+}
+.pkm-rampardos {
+  background-position: 66.66666666666666% 38.46153846153847%;
+}
+.pkm-shieldon {
+  background-position: 69.23076923076923% 38.46153846153847%;
+}
+.pkm-bastiodon {
+  background-position: 71.7948717948718% 38.46153846153847%;
+}
+.pkm-burmy,
+.pkm-burmy-plant {
+  background-position: 74.35897435897436% 38.46153846153847%;
+}
+.pkm-burmy-sandy {
+  background-position: 76.92307692307693% 38.46153846153847%;
+}
+.pkm-burmy-trash {
+  background-position: 79.48717948717949% 38.46153846153847%;
+}
+.pkm-wormadam,
+.pkm-wormadam-plant {
+  background-position: 82.05128205128204% 38.46153846153847%;
+}
+.pkm-wormadam-sandy {
+  background-position: 84.61538461538461% 38.46153846153847%;
+}
+.pkm-wormadam-trash {
+  background-position: 87.17948717948718% 38.46153846153847%;
+}
+.pkm-mothim {
+  background-position: 89.74358974358975% 38.46153846153847%;
+}
+.pkm-combee {
+  background-position: 92.3076923076923% 38.46153846153847%;
+}
+.pkm-combee-f {
+  background-position: 94.87179487179486% 38.46153846153847%;
+}
+.pkm-vespiquen {
+  background-position: 97.43589743589743% 38.46153846153847%;
+}
+.pkm-pachirisu {
+  background-position: 100% 38.46153846153847%;
+}
+.pkm-pachirisu-f {
+  background-position: 0 41.02564102564102%;
+}
+.pkm-buizel {
+  background-position: 2.564102564102564% 41.02564102564102%;
+}
+.pkm-buizel-f {
+  background-position: 5.128205128205128% 41.02564102564102%;
+}
+.pkm-floatzel {
+  background-position: 7.6923076923076925% 41.02564102564102%;
+}
+.pkm-floatzel-f {
+  background-position: 10.256410256410255% 41.02564102564102%;
+}
+.pkm-cherubi {
+  background-position: 12.82051282051282% 41.02564102564102%;
+}
+.pkm-cherrim,
+.pkm-cherrim-overcast {
+  background-position: 15.384615384615385% 41.02564102564102%;
+}
+.pkm-cherrim-sunshine {
+  background-position: 17.94871794871795% 41.02564102564102%;
+}
+.pkm-shellos,
+.pkm-shellos-west {
+  background-position: 20.51282051282051% 41.02564102564102%;
+}
+.pkm-shellos-east {
+  background-position: 23.076923076923077% 41.02564102564102%;
+}
+.pkm-gastrodon,
+.pkm-gastrodon-west {
+  background-position: 25.64102564102564% 41.02564102564102%;
+}
+.pkm-gastrodon-east {
+  background-position: 28.205128205128204% 41.02564102564102%;
+}
+.pkm-ambipom {
+  background-position: 30.76923076923077% 41.02564102564102%;
+}
+.pkm-ambipom-f {
+  background-position: 33.33333333333333% 41.02564102564102%;
+}
+.pkm-drifloon {
+  background-position: 35.8974358974359% 41.02564102564102%;
+}
+.pkm-drifblim {
+  background-position: 38.46153846153847% 41.02564102564102%;
+}
+.pkm-buneary {
+  background-position: 41.02564102564102% 41.02564102564102%;
+}
+.pkm-lopunny {
+  background-position: 43.58974358974359% 41.02564102564102%;
+}
+.pkm-lopunny-mega {
+  background-position: 46.15384615384615% 41.02564102564102%;
+}
+.pkm-mismagius {
+  background-position: 48.717948717948715% 41.02564102564102%;
+}
+.pkm-honchkrow {
+  background-position: 51.28205128205128% 41.02564102564102%;
+}
+.pkm-glameow {
+  background-position: 53.84615384615385% 41.02564102564102%;
+}
+.pkm-purugly {
+  background-position: 56.41025641025641% 41.02564102564102%;
+}
+.pkm-chingling {
+  background-position: 58.97435897435898% 41.02564102564102%;
+}
+.pkm-stunky {
+  background-position: 61.53846153846154% 41.02564102564102%;
+}
+.pkm-skuntank {
+  background-position: 64.1025641025641% 41.02564102564102%;
+}
+.pkm-bronzor {
+  background-position: 66.66666666666666% 41.02564102564102%;
+}
+.pkm-bronzong {
+  background-position: 69.23076923076923% 41.02564102564102%;
+}
+.pkm-bonsly {
+  background-position: 71.7948717948718% 41.02564102564102%;
+}
+.pkm-mimejr {
+  background-position: 74.35897435897436% 41.02564102564102%;
+}
+.pkm-happiny {
+  background-position: 76.92307692307693% 41.02564102564102%;
+}
+.pkm-chatot {
+  background-position: 79.48717948717949% 41.02564102564102%;
+}
+.pkm-spiritomb {
+  background-position: 82.05128205128204% 41.02564102564102%;
+}
+.pkm-gible {
+  background-position: 84.61538461538461% 41.02564102564102%;
+}
+.pkm-gible-f {
+  background-position: 87.17948717948718% 41.02564102564102%;
+}
+.pkm-gabite {
+  background-position: 89.74358974358975% 41.02564102564102%;
+}
+.pkm-gabite-f {
+  background-position: 92.3076923076923% 41.02564102564102%;
+}
+.pkm-garchomp {
+  background-position: 94.87179487179486% 41.02564102564102%;
+}
+.pkm-garchomp-f {
+  background-position: 97.43589743589743% 41.02564102564102%;
+}
+.pkm-garchomp-mega {
+  background-position: 100% 41.02564102564102%;
+}
+.pkm-munchlax {
+  background-position: 0 43.58974358974359%;
+}
+.pkm-riolu {
+  background-position: 2.564102564102564% 43.58974358974359%;
+}
+.pkm-lucario {
+  background-position: 5.128205128205128% 43.58974358974359%;
+}
+.pkm-lucario-mega {
+  background-position: 7.6923076923076925% 43.58974358974359%;
+}
+.pkm-hippopotas {
+  background-position: 10.256410256410255% 43.58974358974359%;
+}
+.pkm-hippopotas-f {
+  background-position: 12.82051282051282% 43.58974358974359%;
+}
+.pkm-hippowdon {
+  background-position: 15.384615384615385% 43.58974358974359%;
+}
+.pkm-hippowdon-f {
+  background-position: 17.94871794871795% 43.58974358974359%;
+}
+.pkm-skorupi {
+  background-position: 20.51282051282051% 43.58974358974359%;
+}
+.pkm-drapion {
+  background-position: 23.076923076923077% 43.58974358974359%;
+}
+.pkm-croagunk {
+  background-position: 25.64102564102564% 43.58974358974359%;
+}
+.pkm-croagunk-f {
+  background-position: 28.205128205128204% 43.58974358974359%;
+}
+.pkm-toxicroak {
+  background-position: 30.76923076923077% 43.58974358974359%;
+}
+.pkm-toxicroak-f {
+  background-position: 33.33333333333333% 43.58974358974359%;
+}
+.pkm-carnivine {
+  background-position: 35.8974358974359% 43.58974358974359%;
+}
+.pkm-finneon {
+  background-position: 38.46153846153847% 43.58974358974359%;
+}
+.pkm-finneon-f {
+  background-position: 41.02564102564102% 43.58974358974359%;
+}
+.pkm-lumineon {
+  background-position: 43.58974358974359% 43.58974358974359%;
+}
+.pkm-lumineon-f {
+  background-position: 46.15384615384615% 43.58974358974359%;
+}
+.pkm-mantyke {
+  background-position: 48.717948717948715% 43.58974358974359%;
+}
+.pkm-snover {
+  background-position: 51.28205128205128% 43.58974358974359%;
+}
+.pkm-snover-f {
+  background-position: 53.84615384615385% 43.58974358974359%;
+}
+.pkm-abomasnow {
+  background-position: 56.41025641025641% 43.58974358974359%;
+}
+.pkm-abomasnow-f {
+  background-position: 58.97435897435898% 43.58974358974359%;
+}
+.pkm-abomasnow-mega {
+  background-position: 61.53846153846154% 43.58974358974359%;
+}
+.pkm-weavile {
+  background-position: 64.1025641025641% 43.58974358974359%;
+}
+.pkm-weavile-f {
+  background-position: 66.66666666666666% 43.58974358974359%;
+}
+.pkm-magnezone {
+  background-position: 69.23076923076923% 43.58974358974359%;
+}
+.pkm-lickilicky {
+  background-position: 71.7948717948718% 43.58974358974359%;
+}
+.pkm-rhyperior {
+  background-position: 74.35897435897436% 43.58974358974359%;
+}
+.pkm-rhyperior-f {
+  background-position: 76.92307692307693% 43.58974358974359%;
+}
+.pkm-tangrowth {
+  background-position: 79.48717948717949% 43.58974358974359%;
+}
+.pkm-tangrowth-f {
+  background-position: 82.05128205128204% 43.58974358974359%;
+}
+.pkm-electivire {
+  background-position: 84.61538461538461% 43.58974358974359%;
+}
+.pkm-magmortar {
+  background-position: 87.17948717948718% 43.58974358974359%;
+}
+.pkm-togekiss {
+  background-position: 89.74358974358975% 43.58974358974359%;
+}
+.pkm-yanmega {
+  background-position: 92.3076923076923% 43.58974358974359%;
+}
+.pkm-leafeon {
+  background-position: 94.87179487179486% 43.58974358974359%;
+}
+.pkm-glaceon {
+  background-position: 97.43589743589743% 43.58974358974359%;
+}
+.pkm-gliscor {
+  background-position: 100% 43.58974358974359%;
+}
+.pkm-mamoswine {
+  background-position: 0 46.15384615384615%;
+}
+.pkm-mamoswine-f {
+  background-position: 2.564102564102564% 46.15384615384615%;
+}
+.pkm-porygonz {
+  background-position: 5.128205128205128% 46.15384615384615%;
+}
+.pkm-gallade {
+  background-position: 7.6923076923076925% 46.15384615384615%;
+}
+.pkm-gallade-mega {
+  background-position: 10.256410256410255% 46.15384615384615%;
+}
+.pkm-probopass {
+  background-position: 12.82051282051282% 46.15384615384615%;
+}
+.pkm-dusknoir {
+  background-position: 15.384615384615385% 46.15384615384615%;
+}
+.pkm-froslass {
+  background-position: 17.94871794871795% 46.15384615384615%;
+}
+.pkm-rotom {
+  background-position: 20.51282051282051% 46.15384615384615%;
+}
+.pkm-rotom-heat {
+  background-position: 23.076923076923077% 46.15384615384615%;
+}
+.pkm-rotom-wash {
+  background-position: 25.64102564102564% 46.15384615384615%;
+}
+.pkm-rotom-frost {
+  background-position: 28.205128205128204% 46.15384615384615%;
+}
+.pkm-rotom-fan {
+  background-position: 30.76923076923077% 46.15384615384615%;
+}
+.pkm-rotom-mow {
+  background-position: 33.33333333333333% 46.15384615384615%;
+}
+.pkm-uxie {
+  background-position: 35.8974358974359% 46.15384615384615%;
+}
+.pkm-mesprit {
+  background-position: 38.46153846153847% 46.15384615384615%;
+}
+.pkm-azelf {
+  background-position: 41.02564102564102% 46.15384615384615%;
+}
+.pkm-dialga {
+  background-position: 43.58974358974359% 46.15384615384615%;
+}
+.pkm-dialga-origin {
+  background-position: 46.15384615384615% 46.15384615384615%;
+}
+.pkm-palkia {
+  background-position: 48.717948717948715% 46.15384615384615%;
+}
+.pkm-palkia-origin {
+  background-position: 51.28205128205128% 46.15384615384615%;
+}
+.pkm-heatran {
+  background-position: 53.84615384615385% 46.15384615384615%;
+}
+.pkm-regigigas {
+  background-position: 56.41025641025641% 46.15384615384615%;
+}
+.pkm-giratina,
+.pkm-giratina-altered {
+  background-position: 58.97435897435898% 46.15384615384615%;
+}
+.pkm-giratina-origin {
+  background-position: 61.53846153846154% 46.15384615384615%;
+}
+.pkm-cresselia {
+  background-position: 64.1025641025641% 46.15384615384615%;
+}
+.pkm-phione {
+  background-position: 66.66666666666666% 46.15384615384615%;
+}
+.pkm-manaphy {
+  background-position: 69.23076923076923% 46.15384615384615%;
+}
+.pkm-darkrai {
+  background-position: 71.7948717948718% 46.15384615384615%;
+}
+.pkm-shaymin,
+.pkm-shaymin-land {
+  background-position: 74.35897435897436% 46.15384615384615%;
+}
+.pkm-shaymin-sky {
+  background-position: 76.92307692307693% 46.15384615384615%;
+}
+.pkm-arceus,
+.pkm-arceus-normal,
+.pkm-arceus-legendary {
+  background-position: 79.48717948717949% 46.15384615384615%;
+}
+.pkm-arceus-fighting {
+  background-position: 82.05128205128204% 46.15384615384615%;
+}
+.pkm-arceus-flying {
+  background-position: 84.61538461538461% 46.15384615384615%;
+}
+.pkm-arceus-poison {
+  background-position: 87.17948717948718% 46.15384615384615%;
+}
+.pkm-arceus-ground {
+  background-position: 89.74358974358975% 46.15384615384615%;
+}
+.pkm-arceus-rock {
+  background-position: 92.3076923076923% 46.15384615384615%;
+}
+.pkm-arceus-bug {
+  background-position: 94.87179487179486% 46.15384615384615%;
+}
+.pkm-arceus-ghost {
+  background-position: 97.43589743589743% 46.15384615384615%;
+}
+.pkm-arceus-steel {
+  background-position: 100% 46.15384615384615%;
+}
+.pkm-arceus-fire {
+  background-position: 0 48.717948717948715%;
+}
+.pkm-arceus-water {
+  background-position: 2.564102564102564% 48.717948717948715%;
+}
+.pkm-arceus-grass {
+  background-position: 5.128205128205128% 48.717948717948715%;
+}
+.pkm-arceus-electric {
+  background-position: 7.6923076923076925% 48.717948717948715%;
+}
+.pkm-arceus-psychic {
+  background-position: 10.256410256410255% 48.717948717948715%;
+}
+.pkm-arceus-ice {
+  background-position: 12.82051282051282% 48.717948717948715%;
+}
+.pkm-arceus-dragon {
+  background-position: 15.384615384615385% 48.717948717948715%;
+}
+.pkm-arceus-dark {
+  background-position: 17.94871794871795% 48.717948717948715%;
+}
+.pkm-arceus-fairy {
+  background-position: 20.51282051282051% 48.717948717948715%;
+}
+.pkm-victini {
+  background-position: 23.076923076923077% 48.717948717948715%;
+}
+.pkm-snivy {
+  background-position: 25.64102564102564% 48.717948717948715%;
+}
+.pkm-servine {
+  background-position: 28.205128205128204% 48.717948717948715%;
+}
+.pkm-serperior {
+  background-position: 30.76923076923077% 48.717948717948715%;
+}
+.pkm-tepig {
+  background-position: 33.33333333333333% 48.717948717948715%;
+}
+.pkm-pignite {
+  background-position: 35.8974358974359% 48.717948717948715%;
+}
+.pkm-emboar {
+  background-position: 38.46153846153847% 48.717948717948715%;
+}
+.pkm-oshawott {
+  background-position: 41.02564102564102% 48.717948717948715%;
+}
+.pkm-dewott {
+  background-position: 43.58974358974359% 48.717948717948715%;
+}
+.pkm-samurott {
+  background-position: 46.15384615384615% 48.717948717948715%;
+}
+.pkm-samurott-hisui {
+  background-position: 48.717948717948715% 48.717948717948715%;
+}
+.pkm-patrat {
+  background-position: 51.28205128205128% 48.717948717948715%;
+}
+.pkm-watchog {
+  background-position: 53.84615384615385% 48.717948717948715%;
+}
+.pkm-lillipup {
+  background-position: 56.41025641025641% 48.717948717948715%;
+}
+.pkm-herdier {
+  background-position: 58.97435897435898% 48.717948717948715%;
+}
+.pkm-stoutland {
+  background-position: 61.53846153846154% 48.717948717948715%;
+}
+.pkm-purrloin {
+  background-position: 64.1025641025641% 48.717948717948715%;
+}
+.pkm-liepard {
+  background-position: 66.66666666666666% 48.717948717948715%;
+}
+.pkm-pansage {
+  background-position: 69.23076923076923% 48.717948717948715%;
+}
+.pkm-simisage {
+  background-position: 71.7948717948718% 48.717948717948715%;
+}
+.pkm-pansear {
+  background-position: 74.35897435897436% 48.717948717948715%;
+}
+.pkm-simisear {
+  background-position: 76.92307692307693% 48.717948717948715%;
+}
+.pkm-panpour {
+  background-position: 79.48717948717949% 48.717948717948715%;
+}
+.pkm-simipour {
+  background-position: 82.05128205128204% 48.717948717948715%;
+}
+.pkm-munna {
+  background-position: 84.61538461538461% 48.717948717948715%;
+}
+.pkm-musharna {
+  background-position: 87.17948717948718% 48.717948717948715%;
+}
+.pkm-pidove {
+  background-position: 89.74358974358975% 48.717948717948715%;
+}
+.pkm-tranquill {
+  background-position: 92.3076923076923% 48.717948717948715%;
+}
+.pkm-unfezant {
+  background-position: 94.87179487179486% 48.717948717948715%;
+}
+.pkm-unfezant-f {
+  background-position: 97.43589743589743% 48.717948717948715%;
+}
+.pkm-blitzle {
+  background-position: 100% 48.717948717948715%;
+}
+.pkm-zebstrika {
+  background-position: 0 51.28205128205128%;
+}
+.pkm-roggenrola {
+  background-position: 2.564102564102564% 51.28205128205128%;
+}
+.pkm-boldore {
+  background-position: 5.128205128205128% 51.28205128205128%;
+}
+.pkm-gigalith {
+  background-position: 7.6923076923076925% 51.28205128205128%;
+}
+.pkm-woobat {
+  background-position: 10.256410256410255% 51.28205128205128%;
+}
+.pkm-swoobat {
+  background-position: 12.82051282051282% 51.28205128205128%;
+}
+.pkm-drilbur {
+  background-position: 15.384615384615385% 51.28205128205128%;
+}
+.pkm-excadrill {
+  background-position: 17.94871794871795% 51.28205128205128%;
+}
+.pkm-audino {
+  background-position: 20.51282051282051% 51.28205128205128%;
+}
+.pkm-audino-mega {
+  background-position: 23.076923076923077% 51.28205128205128%;
+}
+.pkm-timburr {
+  background-position: 25.64102564102564% 51.28205128205128%;
+}
+.pkm-gurdurr {
+  background-position: 28.205128205128204% 51.28205128205128%;
+}
+.pkm-conkeldurr {
+  background-position: 30.76923076923077% 51.28205128205128%;
+}
+.pkm-tympole {
+  background-position: 33.33333333333333% 51.28205128205128%;
+}
+.pkm-palpitoad {
+  background-position: 35.8974358974359% 51.28205128205128%;
+}
+.pkm-seismitoad {
+  background-position: 38.46153846153847% 51.28205128205128%;
+}
+.pkm-throh {
+  background-position: 41.02564102564102% 51.28205128205128%;
+}
+.pkm-sawk {
+  background-position: 43.58974358974359% 51.28205128205128%;
+}
+.pkm-sewaddle {
+  background-position: 46.15384615384615% 51.28205128205128%;
+}
+.pkm-swadloon {
+  background-position: 48.717948717948715% 51.28205128205128%;
+}
+.pkm-leavanny {
+  background-position: 51.28205128205128% 51.28205128205128%;
+}
+.pkm-venipede {
+  background-position: 53.84615384615385% 51.28205128205128%;
+}
+.pkm-whirlipede {
+  background-position: 56.41025641025641% 51.28205128205128%;
+}
+.pkm-scolipede {
+  background-position: 58.97435897435898% 51.28205128205128%;
+}
+.pkm-cottonee {
+  background-position: 61.53846153846154% 51.28205128205128%;
+}
+.pkm-whimsicott {
+  background-position: 64.1025641025641% 51.28205128205128%;
+}
+.pkm-petilil {
+  background-position: 66.66666666666666% 51.28205128205128%;
+}
+.pkm-lilligant {
+  background-position: 69.23076923076923% 51.28205128205128%;
+}
+.pkm-lilligant-hisui {
+  background-position: 71.7948717948718% 51.28205128205128%;
+}
+.pkm-basculin,
+.pkm-basculin-red-striped {
+  background-position: 74.35897435897436% 51.28205128205128%;
+}
+.pkm-basculin-blue-striped {
+  background-position: 76.92307692307693% 51.28205128205128%;
+}
+.pkm-basculin-white-striped {
+  background-position: 79.48717948717949% 51.28205128205128%;
+}
+.pkm-sandile {
+  background-position: 82.05128205128204% 51.28205128205128%;
+}
+.pkm-krokorok {
+  background-position: 84.61538461538461% 51.28205128205128%;
+}
+.pkm-krookodile {
+  background-position: 87.17948717948718% 51.28205128205128%;
+}
+.pkm-darumaka {
+  background-position: 89.74358974358975% 51.28205128205128%;
+}
+.pkm-darumaka-galar {
+  background-position: 92.3076923076923% 51.28205128205128%;
+}
+.pkm-darmanitan,
+.pkm-darmanitan-standard {
+  background-position: 94.87179487179486% 51.28205128205128%;
+}
+.pkm-darmanitan-zen {
+  background-position: 97.43589743589743% 51.28205128205128%;
+}
+.pkm-darmanitan-galar {
+  background-position: 100% 51.28205128205128%;
+}
+.pkm-darmanitan-galar-zen {
+  background-position: 0 53.84615384615385%;
+}
+.pkm-maractus {
+  background-position: 2.564102564102564% 53.84615384615385%;
+}
+.pkm-dwebble {
+  background-position: 5.128205128205128% 53.84615384615385%;
+}
+.pkm-crustle {
+  background-position: 7.6923076923076925% 53.84615384615385%;
+}
+.pkm-scraggy {
+  background-position: 10.256410256410255% 53.84615384615385%;
+}
+.pkm-scrafty {
+  background-position: 12.82051282051282% 53.84615384615385%;
+}
+.pkm-sigilyph {
+  background-position: 15.384615384615385% 53.84615384615385%;
+}
+.pkm-yamask {
+  background-position: 17.94871794871795% 53.84615384615385%;
+}
+.pkm-yamask-galar {
+  background-position: 20.51282051282051% 53.84615384615385%;
+}
+.pkm-cofagrigus {
+  background-position: 23.076923076923077% 53.84615384615385%;
+}
+.pkm-tirtouga {
+  background-position: 25.64102564102564% 53.84615384615385%;
+}
+.pkm-carracosta {
+  background-position: 28.205128205128204% 53.84615384615385%;
+}
+.pkm-archen {
+  background-position: 30.76923076923077% 53.84615384615385%;
+}
+.pkm-archeops {
+  background-position: 33.33333333333333% 53.84615384615385%;
+}
+.pkm-trubbish {
+  background-position: 35.8974358974359% 53.84615384615385%;
+}
+.pkm-garbodor {
+  background-position: 38.46153846153847% 53.84615384615385%;
+}
+.pkm-garbodor-gmax {
+  background-position: 41.02564102564102% 53.84615384615385%;
+}
+.pkm-zorua {
+  background-position: 43.58974358974359% 53.84615384615385%;
+}
+.pkm-zorua-hisui {
+  background-position: 46.15384615384615% 53.84615384615385%;
+}
+.pkm-zoroark {
+  background-position: 48.717948717948715% 53.84615384615385%;
+}
+.pkm-zoroark-hisui {
+  background-position: 51.28205128205128% 53.84615384615385%;
+}
+.pkm-minccino {
+  background-position: 53.84615384615385% 53.84615384615385%;
+}
+.pkm-cinccino {
+  background-position: 56.41025641025641% 53.84615384615385%;
+}
+.pkm-gothita {
+  background-position: 58.97435897435898% 53.84615384615385%;
+}
+.pkm-gothorita {
+  background-position: 61.53846153846154% 53.84615384615385%;
+}
+.pkm-gothitelle {
+  background-position: 64.1025641025641% 53.84615384615385%;
+}
+.pkm-solosis {
+  background-position: 66.66666666666666% 53.84615384615385%;
+}
+.pkm-duosion {
+  background-position: 69.23076923076923% 53.84615384615385%;
+}
+.pkm-reuniclus {
+  background-position: 71.7948717948718% 53.84615384615385%;
+}
+.pkm-ducklett {
+  background-position: 74.35897435897436% 53.84615384615385%;
+}
+.pkm-swanna {
+  background-position: 76.92307692307693% 53.84615384615385%;
+}
+.pkm-vanillite {
+  background-position: 79.48717948717949% 53.84615384615385%;
+}
+.pkm-vanillish {
+  background-position: 82.05128205128204% 53.84615384615385%;
+}
+.pkm-vanilluxe {
+  background-position: 84.61538461538461% 53.84615384615385%;
+}
+.pkm-deerling,
+.pkm-deerling-spring {
+  background-position: 87.17948717948718% 53.84615384615385%;
+}
+.pkm-deerling-summer {
+  background-position: 89.74358974358975% 53.84615384615385%;
+}
+.pkm-deerling-autumn {
+  background-position: 92.3076923076923% 53.84615384615385%;
+}
+.pkm-deerling-winter {
+  background-position: 94.87179487179486% 53.84615384615385%;
+}
+.pkm-sawsbuck,
+.pkm-sawsbuck-spring {
+  background-position: 97.43589743589743% 53.84615384615385%;
+}
+.pkm-sawsbuck-summer {
+  background-position: 100% 53.84615384615385%;
+}
+.pkm-sawsbuck-autumn {
+  background-position: 0 56.41025641025641%;
+}
+.pkm-sawsbuck-winter {
+  background-position: 2.564102564102564% 56.41025641025641%;
+}
+.pkm-emolga {
+  background-position: 5.128205128205128% 56.41025641025641%;
+}
+.pkm-karrablast {
+  background-position: 7.6923076923076925% 56.41025641025641%;
+}
+.pkm-escavalier {
+  background-position: 10.256410256410255% 56.41025641025641%;
+}
+.pkm-foongus {
+  background-position: 12.82051282051282% 56.41025641025641%;
+}
+.pkm-amoonguss {
+  background-position: 15.384615384615385% 56.41025641025641%;
+}
+.pkm-frillish {
+  background-position: 17.94871794871795% 56.41025641025641%;
+}
+.pkm-frillish-f {
+  background-position: 20.51282051282051% 56.41025641025641%;
+}
+.pkm-jellicent {
+  background-position: 23.076923076923077% 56.41025641025641%;
+}
+.pkm-jellicent-f {
+  background-position: 25.64102564102564% 56.41025641025641%;
+}
+.pkm-alomomola {
+  background-position: 28.205128205128204% 56.41025641025641%;
+}
+.pkm-joltik {
+  background-position: 30.76923076923077% 56.41025641025641%;
+}
+.pkm-galvantula {
+  background-position: 33.33333333333333% 56.41025641025641%;
+}
+.pkm-ferroseed {
+  background-position: 35.8974358974359% 56.41025641025641%;
+}
+.pkm-ferrothorn {
+  background-position: 38.46153846153847% 56.41025641025641%;
+}
+.pkm-klink {
+  background-position: 41.02564102564102% 56.41025641025641%;
+}
+.pkm-klang {
+  background-position: 43.58974358974359% 56.41025641025641%;
+}
+.pkm-klinklang {
+  background-position: 46.15384615384615% 56.41025641025641%;
+}
+.pkm-tynamo {
+  background-position: 48.717948717948715% 56.41025641025641%;
+}
+.pkm-eelektrik {
+  background-position: 51.28205128205128% 56.41025641025641%;
+}
+.pkm-eelektross {
+  background-position: 53.84615384615385% 56.41025641025641%;
+}
+.pkm-elgyem {
+  background-position: 56.41025641025641% 56.41025641025641%;
+}
+.pkm-beheeyem {
+  background-position: 58.97435897435898% 56.41025641025641%;
+}
+.pkm-litwick {
+  background-position: 61.53846153846154% 56.41025641025641%;
+}
+.pkm-lampent {
+  background-position: 64.1025641025641% 56.41025641025641%;
+}
+.pkm-chandelure {
+  background-position: 66.66666666666666% 56.41025641025641%;
+}
+.pkm-axew {
+  background-position: 69.23076923076923% 56.41025641025641%;
+}
+.pkm-fraxure {
+  background-position: 71.7948717948718% 56.41025641025641%;
+}
+.pkm-haxorus {
+  background-position: 74.35897435897436% 56.41025641025641%;
+}
+.pkm-cubchoo {
+  background-position: 76.92307692307693% 56.41025641025641%;
+}
+.pkm-beartic {
+  background-position: 79.48717948717949% 56.41025641025641%;
+}
+.pkm-cryogonal {
+  background-position: 82.05128205128204% 56.41025641025641%;
+}
+.pkm-shelmet {
+  background-position: 84.61538461538461% 56.41025641025641%;
+}
+.pkm-accelgor {
+  background-position: 87.17948717948718% 56.41025641025641%;
+}
+.pkm-stunfisk {
+  background-position: 89.74358974358975% 56.41025641025641%;
+}
+.pkm-stunfisk-galar {
+  background-position: 92.3076923076923% 56.41025641025641%;
+}
+.pkm-mienfoo {
+  background-position: 94.87179487179486% 56.41025641025641%;
+}
+.pkm-mienshao {
+  background-position: 97.43589743589743% 56.41025641025641%;
+}
+.pkm-druddigon {
+  background-position: 100% 56.41025641025641%;
+}
+.pkm-golett {
+  background-position: 0 58.97435897435898%;
+}
+.pkm-golurk {
+  background-position: 2.564102564102564% 58.97435897435898%;
+}
+.pkm-pawniard {
+  background-position: 5.128205128205128% 58.97435897435898%;
+}
+.pkm-bisharp {
+  background-position: 7.6923076923076925% 58.97435897435898%;
+}
+.pkm-bouffalant {
+  background-position: 10.256410256410255% 58.97435897435898%;
+}
+.pkm-rufflet {
+  background-position: 12.82051282051282% 58.97435897435898%;
+}
+.pkm-braviary {
+  background-position: 15.384615384615385% 58.97435897435898%;
+}
+.pkm-braviary-hisui {
+  background-position: 17.94871794871795% 58.97435897435898%;
+}
+.pkm-vullaby {
+  background-position: 20.51282051282051% 58.97435897435898%;
+}
+.pkm-mandibuzz {
+  background-position: 23.076923076923077% 58.97435897435898%;
+}
+.pkm-heatmor {
+  background-position: 25.64102564102564% 58.97435897435898%;
+}
+.pkm-durant {
+  background-position: 28.205128205128204% 58.97435897435898%;
+}
+.pkm-deino {
+  background-position: 30.76923076923077% 58.97435897435898%;
+}
+.pkm-zweilous {
+  background-position: 33.33333333333333% 58.97435897435898%;
+}
+.pkm-hydreigon {
+  background-position: 35.8974358974359% 58.97435897435898%;
+}
+.pkm-larvesta {
+  background-position: 38.46153846153847% 58.97435897435898%;
+}
+.pkm-volcarona {
+  background-position: 41.02564102564102% 58.97435897435898%;
+}
+.pkm-cobalion {
+  background-position: 43.58974358974359% 58.97435897435898%;
+}
+.pkm-terrakion {
+  background-position: 46.15384615384615% 58.97435897435898%;
+}
+.pkm-virizion {
+  background-position: 48.717948717948715% 58.97435897435898%;
+}
+.pkm-tornadus,
+.pkm-tornadus-incarnate {
+  background-position: 51.28205128205128% 58.97435897435898%;
+}
+.pkm-tornadus-therian {
+  background-position: 53.84615384615385% 58.97435897435898%;
+}
+.pkm-thundurus,
+.pkm-thundurus-incarnate {
+  background-position: 56.41025641025641% 58.97435897435898%;
+}
+.pkm-thundurus-therian {
+  background-position: 58.97435897435898% 58.97435897435898%;
+}
+.pkm-reshiram {
+  background-position: 61.53846153846154% 58.97435897435898%;
+}
+.pkm-zekrom {
+  background-position: 64.1025641025641% 58.97435897435898%;
+}
+.pkm-landorus,
+.pkm-landorus-incarnate {
+  background-position: 66.66666666666666% 58.97435897435898%;
+}
+.pkm-landorus-therian {
+  background-position: 69.23076923076923% 58.97435897435898%;
+}
+.pkm-kyurem {
+  background-position: 71.7948717948718% 58.97435897435898%;
+}
+.pkm-kyurem-white {
+  background-position: 74.35897435897436% 58.97435897435898%;
+}
+.pkm-kyurem-black {
+  background-position: 76.92307692307693% 58.97435897435898%;
+}
+.pkm-keldeo,
+.pkm-keldeo-ordinary {
+  background-position: 79.48717948717949% 58.97435897435898%;
+}
+.pkm-keldeo-resolute {
+  background-position: 82.05128205128204% 58.97435897435898%;
+}
+.pkm-meloetta,
+.pkm-meloetta-aria {
+  background-position: 84.61538461538461% 58.97435897435898%;
+}
+.pkm-meloetta-pirouette {
+  background-position: 87.17948717948718% 58.97435897435898%;
+}
+.pkm-genesect {
+  background-position: 89.74358974358975% 58.97435897435898%;
+}
+.pkm-genesect-douse {
+  background-position: 92.3076923076923% 58.97435897435898%;
+}
+.pkm-genesect-shock {
+  background-position: 94.87179487179486% 58.97435897435898%;
+}
+.pkm-genesect-burn {
+  background-position: 97.43589743589743% 58.97435897435898%;
+}
+.pkm-genesect-chill {
+  background-position: 100% 58.97435897435898%;
+}
+.pkm-chespin {
+  background-position: 0 61.53846153846154%;
+}
+.pkm-quilladin {
+  background-position: 2.564102564102564% 61.53846153846154%;
+}
+.pkm-chesnaught {
+  background-position: 5.128205128205128% 61.53846153846154%;
+}
+.pkm-fennekin {
+  background-position: 7.6923076923076925% 61.53846153846154%;
+}
+.pkm-braixen {
+  background-position: 10.256410256410255% 61.53846153846154%;
+}
+.pkm-delphox {
+  background-position: 12.82051282051282% 61.53846153846154%;
+}
+.pkm-froakie {
+  background-position: 15.384615384615385% 61.53846153846154%;
+}
+.pkm-frogadier {
+  background-position: 17.94871794871795% 61.53846153846154%;
+}
+.pkm-greninja,
+.pkm-greninja--battle-bond {
+  background-position: 20.51282051282051% 61.53846153846154%;
+}
+.pkm-greninja-ash {
+  background-position: 23.076923076923077% 61.53846153846154%;
+}
+.pkm-bunnelby {
+  background-position: 25.64102564102564% 61.53846153846154%;
+}
+.pkm-diggersby {
+  background-position: 28.205128205128204% 61.53846153846154%;
+}
+.pkm-fletchling {
+  background-position: 30.76923076923077% 61.53846153846154%;
+}
+.pkm-fletchinder {
+  background-position: 33.33333333333333% 61.53846153846154%;
+}
+.pkm-talonflame {
+  background-position: 35.8974358974359% 61.53846153846154%;
+}
+.pkm-scatterbug {
+  background-position: 38.46153846153847% 61.53846153846154%;
+}
+.pkm-spewpa {
+  background-position: 41.02564102564102% 61.53846153846154%;
+}
+.pkm-vivillon,
+.pkm-vivillon-icy-snow {
+  background-position: 43.58974358974359% 61.53846153846154%;
+}
+.pkm-vivillon-meadow {
+  background-position: 46.15384615384615% 61.53846153846154%;
+}
+.pkm-vivillon-polar {
+  background-position: 48.717948717948715% 61.53846153846154%;
+}
+.pkm-vivillon-tundra {
+  background-position: 51.28205128205128% 61.53846153846154%;
+}
+.pkm-vivillon-continental {
+  background-position: 53.84615384615385% 61.53846153846154%;
+}
+.pkm-vivillon-garden {
+  background-position: 56.41025641025641% 61.53846153846154%;
+}
+.pkm-vivillon-elegant {
+  background-position: 58.97435897435898% 61.53846153846154%;
+}
+.pkm-vivillon-modern {
+  background-position: 61.53846153846154% 61.53846153846154%;
+}
+.pkm-vivillon-marine {
+  background-position: 64.1025641025641% 61.53846153846154%;
+}
+.pkm-vivillon-archipelago {
+  background-position: 66.66666666666666% 61.53846153846154%;
+}
+.pkm-vivillon-high-plains {
+  background-position: 69.23076923076923% 61.53846153846154%;
+}
+.pkm-vivillon-sandstorm {
+  background-position: 71.7948717948718% 61.53846153846154%;
+}
+.pkm-vivillon-river {
+  background-position: 74.35897435897436% 61.53846153846154%;
+}
+.pkm-vivillon-monsoon {
+  background-position: 76.92307692307693% 61.53846153846154%;
+}
+.pkm-vivillon-savanna {
+  background-position: 79.48717948717949% 61.53846153846154%;
+}
+.pkm-vivillon-sun {
+  background-position: 82.05128205128204% 61.53846153846154%;
+}
+.pkm-vivillon-ocean {
+  background-position: 84.61538461538461% 61.53846153846154%;
+}
+.pkm-vivillon-jungle {
+  background-position: 87.17948717948718% 61.53846153846154%;
+}
+.pkm-vivillon-fancy {
+  background-position: 89.74358974358975% 61.53846153846154%;
+}
+.pkm-vivillon-pokeball {
+  background-position: 92.3076923076923% 61.53846153846154%;
+}
+.pkm-litleo {
+  background-position: 94.87179487179486% 61.53846153846154%;
+}
+.pkm-pyroar {
+  background-position: 97.43589743589743% 61.53846153846154%;
+}
+.pkm-pyroar-f {
+  background-position: 100% 61.53846153846154%;
+}
+.pkm-flabebe,
+.pkm-flabebe-red {
+  background-position: 0 64.1025641025641%;
+}
+.pkm-flabebe-blue {
+  background-position: 2.564102564102564% 64.1025641025641%;
+}
+.pkm-flabebe-orange {
+  background-position: 5.128205128205128% 64.1025641025641%;
+}
+.pkm-flabebe-white {
+  background-position: 7.6923076923076925% 64.1025641025641%;
+}
+.pkm-flabebe-yellow {
+  background-position: 10.256410256410255% 64.1025641025641%;
+}
+.pkm-floette,
+.pkm-floette-red {
+  background-position: 12.82051282051282% 64.1025641025641%;
+}
+.pkm-floette-blue {
+  background-position: 15.384615384615385% 64.1025641025641%;
+}
+.pkm-floette-orange {
+  background-position: 17.94871794871795% 64.1025641025641%;
+}
+.pkm-floette-white {
+  background-position: 20.51282051282051% 64.1025641025641%;
+}
+.pkm-floette-yellow {
+  background-position: 23.076923076923077% 64.1025641025641%;
+}
+.pkm-florges,
+.pkm-florges-red {
+  background-position: 25.64102564102564% 64.1025641025641%;
+}
+.pkm-florges-blue {
+  background-position: 28.205128205128204% 64.1025641025641%;
+}
+.pkm-florges-orange {
+  background-position: 30.76923076923077% 64.1025641025641%;
+}
+.pkm-florges-white {
+  background-position: 33.33333333333333% 64.1025641025641%;
+}
+.pkm-florges-yellow {
+  background-position: 35.8974358974359% 64.1025641025641%;
+}
+.pkm-skiddo {
+  background-position: 38.46153846153847% 64.1025641025641%;
+}
+.pkm-gogoat {
+  background-position: 41.02564102564102% 64.1025641025641%;
+}
+.pkm-pancham {
+  background-position: 43.58974358974359% 64.1025641025641%;
+}
+.pkm-pangoro {
+  background-position: 46.15384615384615% 64.1025641025641%;
+}
+.pkm-furfrou,
+.pkm-furfrou-natural {
+  background-position: 48.717948717948715% 64.1025641025641%;
+}
+.pkm-furfrou-heart {
+  background-position: 51.28205128205128% 64.1025641025641%;
+}
+.pkm-furfrou-star {
+  background-position: 53.84615384615385% 64.1025641025641%;
+}
+.pkm-furfrou-diamond {
+  background-position: 56.41025641025641% 64.1025641025641%;
+}
+.pkm-furfrou-debutante {
+  background-position: 58.97435897435898% 64.1025641025641%;
+}
+.pkm-furfrou-matron {
+  background-position: 61.53846153846154% 64.1025641025641%;
+}
+.pkm-furfrou-dandy {
+  background-position: 64.1025641025641% 64.1025641025641%;
+}
+.pkm-furfrou-la-reine {
+  background-position: 66.66666666666666% 64.1025641025641%;
+}
+.pkm-furfrou-kabuki {
+  background-position: 69.23076923076923% 64.1025641025641%;
+}
+.pkm-furfrou-pharaoh {
+  background-position: 71.7948717948718% 64.1025641025641%;
+}
+.pkm-espurr {
+  background-position: 74.35897435897436% 64.1025641025641%;
+}
+.pkm-meowstic,
+.pkm-meowstic-m {
+  background-position: 76.92307692307693% 64.1025641025641%;
+}
+.pkm-meowstic-f {
+  background-position: 79.48717948717949% 64.1025641025641%;
+}
+.pkm-honedge {
+  background-position: 82.05128205128204% 64.1025641025641%;
+}
+.pkm-doublade {
+  background-position: 84.61538461538461% 64.1025641025641%;
+}
+.pkm-aegislash,
+.pkm-aegislash-shield {
+  background-position: 87.17948717948718% 64.1025641025641%;
+}
+.pkm-aegislash-blade {
+  background-position: 89.74358974358975% 64.1025641025641%;
+}
+.pkm-spritzee {
+  background-position: 92.3076923076923% 64.1025641025641%;
+}
+.pkm-aromatisse {
+  background-position: 94.87179487179486% 64.1025641025641%;
+}
+.pkm-swirlix {
+  background-position: 97.43589743589743% 64.1025641025641%;
+}
+.pkm-slurpuff {
+  background-position: 100% 64.1025641025641%;
+}
+.pkm-inkay {
+  background-position: 0 66.66666666666666%;
+}
+.pkm-malamar {
+  background-position: 2.564102564102564% 66.66666666666666%;
+}
+.pkm-binacle {
+  background-position: 5.128205128205128% 66.66666666666666%;
+}
+.pkm-barbaracle {
+  background-position: 7.6923076923076925% 66.66666666666666%;
+}
+.pkm-skrelp {
+  background-position: 10.256410256410255% 66.66666666666666%;
+}
+.pkm-dragalge {
+  background-position: 12.82051282051282% 66.66666666666666%;
+}
+.pkm-clauncher {
+  background-position: 15.384615384615385% 66.66666666666666%;
+}
+.pkm-clawitzer {
+  background-position: 17.94871794871795% 66.66666666666666%;
+}
+.pkm-helioptile {
+  background-position: 20.51282051282051% 66.66666666666666%;
+}
+.pkm-heliolisk {
+  background-position: 23.076923076923077% 66.66666666666666%;
+}
+.pkm-tyrunt {
+  background-position: 25.64102564102564% 66.66666666666666%;
+}
+.pkm-tyrantrum {
+  background-position: 28.205128205128204% 66.66666666666666%;
+}
+.pkm-amaura {
+  background-position: 30.76923076923077% 66.66666666666666%;
+}
+.pkm-aurorus {
+  background-position: 33.33333333333333% 66.66666666666666%;
+}
+.pkm-sylveon {
+  background-position: 35.8974358974359% 66.66666666666666%;
+}
+.pkm-hawlucha {
+  background-position: 38.46153846153847% 66.66666666666666%;
+}
+.pkm-dedenne {
+  background-position: 41.02564102564102% 66.66666666666666%;
+}
+.pkm-carbink {
+  background-position: 43.58974358974359% 66.66666666666666%;
+}
+.pkm-goomy {
+  background-position: 46.15384615384615% 66.66666666666666%;
+}
+.pkm-sliggoo {
+  background-position: 48.717948717948715% 66.66666666666666%;
+}
+.pkm-sliggoo-hisui {
+  background-position: 51.28205128205128% 66.66666666666666%;
+}
+.pkm-goodra {
+  background-position: 53.84615384615385% 66.66666666666666%;
+}
+.pkm-goodra-hisui {
+  background-position: 56.41025641025641% 66.66666666666666%;
+}
+.pkm-klefki {
+  background-position: 58.97435897435898% 66.66666666666666%;
+}
+.pkm-phantump {
+  background-position: 61.53846153846154% 66.66666666666666%;
+}
+.pkm-trevenant {
+  background-position: 64.1025641025641% 66.66666666666666%;
+}
+.pkm-pumpkaboo,
+.pkm-pumpkaboo-average {
+  background-position: 66.66666666666666% 66.66666666666666%;
+}
+.pkm-pumpkaboo-small {
+  background-position: 69.23076923076923% 66.66666666666666%;
+}
+.pkm-pumpkaboo-large {
+  background-position: 71.7948717948718% 66.66666666666666%;
+}
+.pkm-pumpkaboo-super {
+  background-position: 74.35897435897436% 66.66666666666666%;
+}
+.pkm-gourgeist,
+.pkm-gourgeist-average {
+  background-position: 76.92307692307693% 66.66666666666666%;
+}
+.pkm-gourgeist-small {
+  background-position: 79.48717948717949% 66.66666666666666%;
+}
+.pkm-gourgeist-large {
+  background-position: 82.05128205128204% 66.66666666666666%;
+}
+.pkm-gourgeist-super {
+  background-position: 84.61538461538461% 66.66666666666666%;
+}
+.pkm-bergmite {
+  background-position: 87.17948717948718% 66.66666666666666%;
+}
+.pkm-avalugg {
+  background-position: 89.74358974358975% 66.66666666666666%;
+}
+.pkm-avalugg-hisui {
+  background-position: 92.3076923076923% 66.66666666666666%;
+}
+.pkm-noibat {
+  background-position: 94.87179487179486% 66.66666666666666%;
+}
+.pkm-noivern {
+  background-position: 97.43589743589743% 66.66666666666666%;
+}
+.pkm-xerneas,
+.pkm-xerneas-neutral {
+  background-position: 100% 66.66666666666666%;
+}
+.pkm-xerneas-active {
+  background-position: 0 69.23076923076923%;
+}
+.pkm-yveltal {
+  background-position: 2.564102564102564% 69.23076923076923%;
+}
+.pkm-zygarde,
+.pkm-zygarde-50,
+.pkm-zygarde--power-construct {
+  background-position: 5.128205128205128% 69.23076923076923%;
+}
+.pkm-zygarde-10,
+.pkm-zygarde-10--power-construct {
+  background-position: 7.6923076923076925% 69.23076923076923%;
+}
+.pkm-zygarde-complete {
+  background-position: 10.256410256410255% 69.23076923076923%;
+}
+.pkm-diancie {
+  background-position: 12.82051282051282% 69.23076923076923%;
+}
+.pkm-diancie-mega {
+  background-position: 15.384615384615385% 69.23076923076923%;
+}
+.pkm-hoopa,
+.pkm-hoopa-confined {
+  background-position: 17.94871794871795% 69.23076923076923%;
+}
+.pkm-hoopa-unbound {
+  background-position: 20.51282051282051% 69.23076923076923%;
+}
+.pkm-volcanion {
+  background-position: 23.076923076923077% 69.23076923076923%;
+}
+.pkm-rowlet {
+  background-position: 25.64102564102564% 69.23076923076923%;
+}
+.pkm-dartrix {
+  background-position: 28.205128205128204% 69.23076923076923%;
+}
+.pkm-decidueye {
+  background-position: 30.76923076923077% 69.23076923076923%;
+}
+.pkm-decidueye-hisui {
+  background-position: 33.33333333333333% 69.23076923076923%;
+}
+.pkm-litten {
+  background-position: 35.8974358974359% 69.23076923076923%;
+}
+.pkm-torracat {
+  background-position: 38.46153846153847% 69.23076923076923%;
+}
+.pkm-incineroar {
+  background-position: 41.02564102564102% 69.23076923076923%;
+}
+.pkm-popplio {
+  background-position: 43.58974358974359% 69.23076923076923%;
+}
+.pkm-brionne {
+  background-position: 46.15384615384615% 69.23076923076923%;
+}
+.pkm-primarina {
+  background-position: 48.717948717948715% 69.23076923076923%;
+}
+.pkm-pikipek {
+  background-position: 51.28205128205128% 69.23076923076923%;
+}
+.pkm-trumbeak {
+  background-position: 53.84615384615385% 69.23076923076923%;
+}
+.pkm-toucannon {
+  background-position: 56.41025641025641% 69.23076923076923%;
+}
+.pkm-yungoos {
+  background-position: 58.97435897435898% 69.23076923076923%;
+}
+.pkm-gumshoos {
+  background-position: 61.53846153846154% 69.23076923076923%;
+}
+.pkm-grubbin {
+  background-position: 64.1025641025641% 69.23076923076923%;
+}
+.pkm-charjabug {
+  background-position: 66.66666666666666% 69.23076923076923%;
+}
+.pkm-vikavolt {
+  background-position: 69.23076923076923% 69.23076923076923%;
+}
+.pkm-crabrawler {
+  background-position: 71.7948717948718% 69.23076923076923%;
+}
+.pkm-crabominable {
+  background-position: 74.35897435897436% 69.23076923076923%;
+}
+.pkm-oricorio,
+.pkm-oricorio-baile {
+  background-position: 76.92307692307693% 69.23076923076923%;
+}
+.pkm-oricorio-pom-pom {
+  background-position: 79.48717948717949% 69.23076923076923%;
+}
+.pkm-oricorio-pau {
+  background-position: 82.05128205128204% 69.23076923076923%;
+}
+.pkm-oricorio-sensu {
+  background-position: 84.61538461538461% 69.23076923076923%;
+}
+.pkm-cutiefly {
+  background-position: 87.17948717948718% 69.23076923076923%;
+}
+.pkm-ribombee {
+  background-position: 89.74358974358975% 69.23076923076923%;
+}
+.pkm-rockruff,
+.pkm-rockruff-,
+.pkm-rockruff--own-tempo {
+  background-position: 92.3076923076923% 69.23076923076923%;
+}
+.pkm-lycanroc,
+.pkm-lycanroc-midday {
+  background-position: 94.87179487179486% 69.23076923076923%;
+}
+.pkm-lycanroc-midnight {
+  background-position: 97.43589743589743% 69.23076923076923%;
+}
+.pkm-lycanroc-dusk {
+  background-position: 100% 69.23076923076923%;
+}
+.pkm-wishiwashi,
+.pkm-wishiwashi-solo {
+  background-position: 0 71.7948717948718%;
+}
+.pkm-wishiwashi-school {
+  background-position: 2.564102564102564% 71.7948717948718%;
+}
+.pkm-mareanie {
+  background-position: 5.128205128205128% 71.7948717948718%;
+}
+.pkm-toxapex {
+  background-position: 7.6923076923076925% 71.7948717948718%;
+}
+.pkm-mudbray {
+  background-position: 10.256410256410255% 71.7948717948718%;
+}
+.pkm-mudsdale {
+  background-position: 12.82051282051282% 71.7948717948718%;
+}
+.pkm-dewpider {
+  background-position: 15.384615384615385% 71.7948717948718%;
+}
+.pkm-araquanid {
+  background-position: 17.94871794871795% 71.7948717948718%;
+}
+.pkm-fomantis {
+  background-position: 20.51282051282051% 71.7948717948718%;
+}
+.pkm-lurantis {
+  background-position: 23.076923076923077% 71.7948717948718%;
+}
+.pkm-morelull {
+  background-position: 25.64102564102564% 71.7948717948718%;
+}
+.pkm-shiinotic {
+  background-position: 28.205128205128204% 71.7948717948718%;
+}
+.pkm-salandit {
+  background-position: 30.76923076923077% 71.7948717948718%;
+}
+.pkm-salazzle {
+  background-position: 33.33333333333333% 71.7948717948718%;
+}
+.pkm-stufful {
+  background-position: 35.8974358974359% 71.7948717948718%;
+}
+.pkm-bewear {
+  background-position: 38.46153846153847% 71.7948717948718%;
+}
+.pkm-bounsweet {
+  background-position: 41.02564102564102% 71.7948717948718%;
+}
+.pkm-steenee {
+  background-position: 43.58974358974359% 71.7948717948718%;
+}
+.pkm-tsareena {
+  background-position: 46.15384615384615% 71.7948717948718%;
+}
+.pkm-comfey {
+  background-position: 48.717948717948715% 71.7948717948718%;
+}
+.pkm-oranguru {
+  background-position: 51.28205128205128% 71.7948717948718%;
+}
+.pkm-passimian {
+  background-position: 53.84615384615385% 71.7948717948718%;
+}
+.pkm-wimpod {
+  background-position: 56.41025641025641% 71.7948717948718%;
+}
+.pkm-golisopod {
+  background-position: 58.97435897435898% 71.7948717948718%;
+}
+.pkm-sandygast {
+  background-position: 61.53846153846154% 71.7948717948718%;
+}
+.pkm-palossand {
+  background-position: 64.1025641025641% 71.7948717948718%;
+}
+.pkm-pyukumuku {
+  background-position: 66.66666666666666% 71.7948717948718%;
+}
+.pkm-typenull {
+  background-position: 69.23076923076923% 71.7948717948718%;
+}
+.pkm-silvally {
+  background-position: 71.7948717948718% 71.7948717948718%;
+}
+.pkm-silvally-fighting {
+  background-position: 74.35897435897436% 71.7948717948718%;
+}
+.pkm-silvally-flying {
+  background-position: 76.92307692307693% 71.7948717948718%;
+}
+.pkm-silvally-poison {
+  background-position: 79.48717948717949% 71.7948717948718%;
+}
+.pkm-silvally-ground {
+  background-position: 82.05128205128204% 71.7948717948718%;
+}
+.pkm-silvally-rock {
+  background-position: 84.61538461538461% 71.7948717948718%;
+}
+.pkm-silvally-bug {
+  background-position: 87.17948717948718% 71.7948717948718%;
+}
+.pkm-silvally-ghost {
+  background-position: 89.74358974358975% 71.7948717948718%;
+}
+.pkm-silvally-steel {
+  background-position: 92.3076923076923% 71.7948717948718%;
+}
+.pkm-silvally-fire {
+  background-position: 94.87179487179486% 71.7948717948718%;
+}
+.pkm-silvally-water {
+  background-position: 97.43589743589743% 71.7948717948718%;
+}
+.pkm-silvally-grass {
+  background-position: 100% 71.7948717948718%;
+}
+.pkm-silvally-electric {
+  background-position: 0 74.35897435897436%;
+}
+.pkm-silvally-psychic {
+  background-position: 2.564102564102564% 74.35897435897436%;
+}
+.pkm-silvally-ice {
+  background-position: 5.128205128205128% 74.35897435897436%;
+}
+.pkm-silvally-dragon {
+  background-position: 7.6923076923076925% 74.35897435897436%;
+}
+.pkm-silvally-dark {
+  background-position: 10.256410256410255% 74.35897435897436%;
+}
+.pkm-silvally-fairy {
+  background-position: 12.82051282051282% 74.35897435897436%;
+}
+.pkm-minior-red {
+  background-position: 15.384615384615385% 74.35897435897436%;
+}
+.pkm-minior-orange {
+  background-position: 17.94871794871795% 74.35897435897436%;
+}
+.pkm-minior-yellow {
+  background-position: 20.51282051282051% 74.35897435897436%;
+}
+.pkm-minior-green {
+  background-position: 23.076923076923077% 74.35897435897436%;
+}
+.pkm-minior-blue {
+  background-position: 25.64102564102564% 74.35897435897436%;
+}
+.pkm-minior-indigo {
+  background-position: 28.205128205128204% 74.35897435897436%;
+}
+.pkm-minior-violet {
+  background-position: 30.76923076923077% 74.35897435897436%;
+}
+.pkm-minior,
+.pkm-minior-meteor {
+  background-position: 33.33333333333333% 74.35897435897436%;
+}
+.pkm-komala {
+  background-position: 35.8974358974359% 74.35897435897436%;
+}
+.pkm-turtonator {
+  background-position: 38.46153846153847% 74.35897435897436%;
+}
+.pkm-togedemaru {
+  background-position: 41.02564102564102% 74.35897435897436%;
+}
+.pkm-mimikyu,
+.pkm-mimikyu-disguised {
+  background-position: 43.58974358974359% 74.35897435897436%;
+}
+.pkm-mimikyu-busted {
+  background-position: 46.15384615384615% 74.35897435897436%;
+}
+.pkm-bruxish {
+  background-position: 48.717948717948715% 74.35897435897436%;
+}
+.pkm-drampa {
+  background-position: 51.28205128205128% 74.35897435897436%;
+}
+.pkm-dhelmise {
+  background-position: 53.84615384615385% 74.35897435897436%;
+}
+.pkm-jangmoo {
+  background-position: 56.41025641025641% 74.35897435897436%;
+}
+.pkm-hakamoo {
+  background-position: 58.97435897435898% 74.35897435897436%;
+}
+.pkm-kommoo {
+  background-position: 61.53846153846154% 74.35897435897436%;
+}
+.pkm-tapukoko {
+  background-position: 64.1025641025641% 74.35897435897436%;
+}
+.pkm-tapulele {
+  background-position: 66.66666666666666% 74.35897435897436%;
+}
+.pkm-tapubulu {
+  background-position: 69.23076923076923% 74.35897435897436%;
+}
+.pkm-tapufini {
+  background-position: 71.7948717948718% 74.35897435897436%;
+}
+.pkm-cosmog {
+  background-position: 74.35897435897436% 74.35897435897436%;
+}
+.pkm-cosmoem {
+  background-position: 76.92307692307693% 74.35897435897436%;
+}
+.pkm-solgaleo {
+  background-position: 79.48717948717949% 74.35897435897436%;
+}
+.pkm-lunala {
+  background-position: 82.05128205128204% 74.35897435897436%;
+}
+.pkm-nihilego {
+  background-position: 84.61538461538461% 74.35897435897436%;
+}
+.pkm-buzzwole {
+  background-position: 87.17948717948718% 74.35897435897436%;
+}
+.pkm-pheromosa {
+  background-position: 89.74358974358975% 74.35897435897436%;
+}
+.pkm-xurkitree {
+  background-position: 92.3076923076923% 74.35897435897436%;
+}
+.pkm-celesteela {
+  background-position: 94.87179487179486% 74.35897435897436%;
+}
+.pkm-kartana {
+  background-position: 97.43589743589743% 74.35897435897436%;
+}
+.pkm-guzzlord {
+  background-position: 100% 74.35897435897436%;
+}
+.pkm-necrozma {
+  background-position: 0 76.92307692307693%;
+}
+.pkm-necrozma-dusk-mane {
+  background-position: 2.564102564102564% 76.92307692307693%;
+}
+.pkm-necrozma-dawn-wings {
+  background-position: 5.128205128205128% 76.92307692307693%;
+}
+.pkm-necrozma-ultra {
+  background-position: 7.6923076923076925% 76.92307692307693%;
+}
+.pkm-magearna {
+  background-position: 10.256410256410255% 76.92307692307693%;
+}
+.pkm-magearna-original {
+  background-position: 12.82051282051282% 76.92307692307693%;
+}
+.pkm-marshadow {
+  background-position: 15.384615384615385% 76.92307692307693%;
+}
+.pkm-poipole {
+  background-position: 17.94871794871795% 76.92307692307693%;
+}
+.pkm-naganadel {
+  background-position: 20.51282051282051% 76.92307692307693%;
+}
+.pkm-stakataka {
+  background-position: 23.076923076923077% 76.92307692307693%;
+}
+.pkm-blacephalon {
+  background-position: 25.64102564102564% 76.92307692307693%;
+}
+.pkm-zeraora {
+  background-position: 28.205128205128204% 76.92307692307693%;
+}
+.pkm-meltan {
+  background-position: 30.76923076923077% 76.92307692307693%;
+}
+.pkm-melmetal {
+  background-position: 33.33333333333333% 76.92307692307693%;
+}
+.pkm-melmetal-gmax {
+  background-position: 35.8974358974359% 76.92307692307693%;
+}
+.pkm-grookey {
+  background-position: 38.46153846153847% 76.92307692307693%;
+}
+.pkm-thwackey {
+  background-position: 41.02564102564102% 76.92307692307693%;
+}
+.pkm-rillaboom {
+  background-position: 43.58974358974359% 76.92307692307693%;
+}
+.pkm-rillaboom-gmax {
+  background-position: 46.15384615384615% 76.92307692307693%;
+}
+.pkm-scorbunny {
+  background-position: 48.717948717948715% 76.92307692307693%;
+}
+.pkm-raboot {
+  background-position: 51.28205128205128% 76.92307692307693%;
+}
+.pkm-cinderace {
+  background-position: 53.84615384615385% 76.92307692307693%;
+}
+.pkm-cinderace-gmax {
+  background-position: 56.41025641025641% 76.92307692307693%;
+}
+.pkm-sobble {
+  background-position: 58.97435897435898% 76.92307692307693%;
+}
+.pkm-drizzile {
+  background-position: 61.53846153846154% 76.92307692307693%;
+}
+.pkm-inteleon {
+  background-position: 64.1025641025641% 76.92307692307693%;
+}
+.pkm-inteleon-gmax {
+  background-position: 66.66666666666666% 76.92307692307693%;
+}
+.pkm-skwovet {
+  background-position: 69.23076923076923% 76.92307692307693%;
+}
+.pkm-greedent {
+  background-position: 71.7948717948718% 76.92307692307693%;
+}
+.pkm-rookidee {
+  background-position: 74.35897435897436% 76.92307692307693%;
+}
+.pkm-corvisquire {
+  background-position: 76.92307692307693% 76.92307692307693%;
+}
+.pkm-corviknight {
+  background-position: 79.48717948717949% 76.92307692307693%;
+}
+.pkm-corviknight-gmax {
+  background-position: 82.05128205128204% 76.92307692307693%;
+}
+.pkm-blipbug {
+  background-position: 84.61538461538461% 76.92307692307693%;
+}
+.pkm-dottler {
+  background-position: 87.17948717948718% 76.92307692307693%;
+}
+.pkm-orbeetle {
+  background-position: 89.74358974358975% 76.92307692307693%;
+}
+.pkm-orbeetle-gmax {
+  background-position: 92.3076923076923% 76.92307692307693%;
+}
+.pkm-nickit {
+  background-position: 94.87179487179486% 76.92307692307693%;
+}
+.pkm-thievul {
+  background-position: 97.43589743589743% 76.92307692307693%;
+}
+.pkm-gossifleur {
+  background-position: 100% 76.92307692307693%;
+}
+.pkm-eldegoss {
+  background-position: 0 79.48717948717949%;
+}
+.pkm-wooloo {
+  background-position: 2.564102564102564% 79.48717948717949%;
+}
+.pkm-dubwool {
+  background-position: 5.128205128205128% 79.48717948717949%;
+}
+.pkm-chewtle {
+  background-position: 7.6923076923076925% 79.48717948717949%;
+}
+.pkm-drednaw {
+  background-position: 10.256410256410255% 79.48717948717949%;
+}
+.pkm-drednaw-gmax {
+  background-position: 12.82051282051282% 79.48717948717949%;
+}
+.pkm-yamper {
+  background-position: 15.384615384615385% 79.48717948717949%;
+}
+.pkm-boltund {
+  background-position: 17.94871794871795% 79.48717948717949%;
+}
+.pkm-rolycoly {
+  background-position: 20.51282051282051% 79.48717948717949%;
+}
+.pkm-carkol {
+  background-position: 23.076923076923077% 79.48717948717949%;
+}
+.pkm-coalossal {
+  background-position: 25.64102564102564% 79.48717948717949%;
+}
+.pkm-coalossal-gmax {
+  background-position: 28.205128205128204% 79.48717948717949%;
+}
+.pkm-applin {
+  background-position: 30.76923076923077% 79.48717948717949%;
+}
+.pkm-flapple {
+  background-position: 33.33333333333333% 79.48717948717949%;
+}
+.pkm-flapple-gmax {
+  background-position: 35.8974358974359% 79.48717948717949%;
+}
+.pkm-appletun {
+  background-position: 38.46153846153847% 79.48717948717949%;
+}
+.pkm-appletun-gmax {
+  background-position: 41.02564102564102% 79.48717948717949%;
+}
+.pkm-silicobra {
+  background-position: 43.58974358974359% 79.48717948717949%;
+}
+.pkm-sandaconda {
+  background-position: 46.15384615384615% 79.48717948717949%;
+}
+.pkm-sandaconda-gmax {
+  background-position: 48.717948717948715% 79.48717948717949%;
+}
+.pkm-cramorant {
+  background-position: 51.28205128205128% 79.48717948717949%;
+}
+.pkm-cramorant-gulping {
+  background-position: 53.84615384615385% 79.48717948717949%;
+}
+.pkm-cramorant-gorging {
+  background-position: 56.41025641025641% 79.48717948717949%;
+}
+.pkm-arrokuda {
+  background-position: 58.97435897435898% 79.48717948717949%;
+}
+.pkm-barraskewda {
+  background-position: 61.53846153846154% 79.48717948717949%;
+}
+.pkm-toxel {
+  background-position: 64.1025641025641% 79.48717948717949%;
+}
+.pkm-toxtricity,
+.pkm-toxtricity-amped {
+  background-position: 66.66666666666666% 79.48717948717949%;
+}
+.pkm-toxtricity-low-key {
+  background-position: 69.23076923076923% 79.48717948717949%;
+}
+.pkm-toxtricity-gmax,
+.pkm-toxtricity-low-key-gmax {
+  background-position: 71.7948717948718% 79.48717948717949%;
+}
+.pkm-sizzlipede {
+  background-position: 74.35897435897436% 79.48717948717949%;
+}
+.pkm-centiskorch {
+  background-position: 76.92307692307693% 79.48717948717949%;
+}
+.pkm-centiskorch-gmax {
+  background-position: 79.48717948717949% 79.48717948717949%;
+}
+.pkm-clobbopus {
+  background-position: 82.05128205128204% 79.48717948717949%;
+}
+.pkm-grapploct {
+  background-position: 84.61538461538461% 79.48717948717949%;
+}
+.pkm-sinistea,
+.pkm-sinistea-phony,
+.pkm-sinistea-antique {
+  background-position: 87.17948717948718% 79.48717948717949%;
+}
+.pkm-polteageist,
+.pkm-polteageist-phony,
+.pkm-polteageist-antique {
+  background-position: 89.74358974358975% 79.48717948717949%;
+}
+.pkm-hatenna {
+  background-position: 92.3076923076923% 79.48717948717949%;
+}
+.pkm-hattrem {
+  background-position: 94.87179487179486% 79.48717948717949%;
+}
+.pkm-hatterene {
+  background-position: 97.43589743589743% 79.48717948717949%;
+}
+.pkm-hatterene-gmax {
+  background-position: 100% 79.48717948717949%;
+}
+.pkm-impidimp {
+  background-position: 0 82.05128205128204%;
+}
+.pkm-morgrem {
+  background-position: 2.564102564102564% 82.05128205128204%;
+}
+.pkm-grimmsnarl {
+  background-position: 5.128205128205128% 82.05128205128204%;
+}
+.pkm-grimmsnarl-gmax {
+  background-position: 7.6923076923076925% 82.05128205128204%;
+}
+.pkm-obstagoon {
+  background-position: 10.256410256410255% 82.05128205128204%;
+}
+.pkm-perrserker {
+  background-position: 12.82051282051282% 82.05128205128204%;
+}
+.pkm-cursola {
+  background-position: 15.384615384615385% 82.05128205128204%;
+}
+.pkm-sirfetchd {
+  background-position: 17.94871794871795% 82.05128205128204%;
+}
+.pkm-mrrime {
+  background-position: 20.51282051282051% 82.05128205128204%;
+}
+.pkm-runerigus {
+  background-position: 23.076923076923077% 82.05128205128204%;
+}
+.pkm-milcery {
+  background-position: 25.64102564102564% 82.05128205128204%;
+}
+.pkm-alcremie,
+.pkm-alcremie-vanilla-cream-strawberry {
+  background-position: 28.205128205128204% 82.05128205128204%;
+}
+.pkm-alcremie-vanilla-cream-berry {
+  background-position: 30.76923076923077% 82.05128205128204%;
+}
+.pkm-alcremie-vanilla-cream-love {
+  background-position: 33.33333333333333% 82.05128205128204%;
+}
+.pkm-alcremie-vanilla-cream-star {
+  background-position: 35.8974358974359% 82.05128205128204%;
+}
+.pkm-alcremie-vanilla-cream-clover {
+  background-position: 38.46153846153847% 82.05128205128204%;
+}
+.pkm-alcremie-vanilla-cream-flower {
+  background-position: 41.02564102564102% 82.05128205128204%;
+}
+.pkm-alcremie-vanilla-cream-ribbon {
+  background-position: 43.58974358974359% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-strawberry {
+  background-position: 46.15384615384615% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-berry {
+  background-position: 48.717948717948715% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-love {
+  background-position: 51.28205128205128% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-star {
+  background-position: 53.84615384615385% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-clover {
+  background-position: 56.41025641025641% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-flower {
+  background-position: 58.97435897435898% 82.05128205128204%;
+}
+.pkm-alcremie-ruby-cream-ribbon {
+  background-position: 61.53846153846154% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-strawberry {
+  background-position: 64.1025641025641% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-berry {
+  background-position: 66.66666666666666% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-love {
+  background-position: 69.23076923076923% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-star {
+  background-position: 71.7948717948718% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-clover {
+  background-position: 74.35897435897436% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-flower {
+  background-position: 76.92307692307693% 82.05128205128204%;
+}
+.pkm-alcremie-matcha-cream-ribbon {
+  background-position: 79.48717948717949% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-strawberry {
+  background-position: 82.05128205128204% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-berry {
+  background-position: 84.61538461538461% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-love {
+  background-position: 87.17948717948718% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-star {
+  background-position: 89.74358974358975% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-clover {
+  background-position: 92.3076923076923% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-flower {
+  background-position: 94.87179487179486% 82.05128205128204%;
+}
+.pkm-alcremie-mint-cream-ribbon {
+  background-position: 97.43589743589743% 82.05128205128204%;
+}
+.pkm-alcremie-lemon-cream-strawberry {
+  background-position: 100% 82.05128205128204%;
+}
+.pkm-alcremie-lemon-cream-berry {
+  background-position: 0 84.61538461538461%;
+}
+.pkm-alcremie-lemon-cream-love {
+  background-position: 2.564102564102564% 84.61538461538461%;
+}
+.pkm-alcremie-lemon-cream-star {
+  background-position: 5.128205128205128% 84.61538461538461%;
+}
+.pkm-alcremie-lemon-cream-clover {
+  background-position: 7.6923076923076925% 84.61538461538461%;
+}
+.pkm-alcremie-lemon-cream-flower {
+  background-position: 10.256410256410255% 84.61538461538461%;
+}
+.pkm-alcremie-lemon-cream-ribbon {
+  background-position: 12.82051282051282% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-strawberry {
+  background-position: 15.384615384615385% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-berry {
+  background-position: 17.94871794871795% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-love {
+  background-position: 20.51282051282051% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-star {
+  background-position: 23.076923076923077% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-clover {
+  background-position: 25.64102564102564% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-flower {
+  background-position: 28.205128205128204% 84.61538461538461%;
+}
+.pkm-alcremie-salted-cream-ribbon {
+  background-position: 30.76923076923077% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-strawberry {
+  background-position: 33.33333333333333% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-berry {
+  background-position: 35.8974358974359% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-love {
+  background-position: 38.46153846153847% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-star {
+  background-position: 41.02564102564102% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-clover {
+  background-position: 43.58974358974359% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-flower {
+  background-position: 46.15384615384615% 84.61538461538461%;
+}
+.pkm-alcremie-ruby-swirl-ribbon {
+  background-position: 48.717948717948715% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-strawberry {
+  background-position: 51.28205128205128% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-berry {
+  background-position: 53.84615384615385% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-love {
+  background-position: 56.41025641025641% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-star {
+  background-position: 58.97435897435898% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-clover {
+  background-position: 61.53846153846154% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-flower {
+  background-position: 64.1025641025641% 84.61538461538461%;
+}
+.pkm-alcremie-caramel-swirl-ribbon {
+  background-position: 66.66666666666666% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-strawberry {
+  background-position: 69.23076923076923% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-berry {
+  background-position: 71.7948717948718% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-love {
+  background-position: 74.35897435897436% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-star {
+  background-position: 76.92307692307693% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-clover {
+  background-position: 79.48717948717949% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-flower {
+  background-position: 82.05128205128204% 84.61538461538461%;
+}
+.pkm-alcremie-rainbow-swirl-ribbon {
+  background-position: 84.61538461538461% 84.61538461538461%;
+}
+.pkm-alcremie-gmax {
+  background-position: 87.17948717948718% 84.61538461538461%;
+}
+.pkm-falinks {
+  background-position: 89.74358974358975% 84.61538461538461%;
+}
+.pkm-pincurchin {
+  background-position: 92.3076923076923% 84.61538461538461%;
+}
+.pkm-snom {
+  background-position: 94.87179487179486% 84.61538461538461%;
+}
+.pkm-frosmoth {
+  background-position: 97.43589743589743% 84.61538461538461%;
+}
+.pkm-stonjourner {
+  background-position: 100% 84.61538461538461%;
+}
+.pkm-eiscue,
+.pkm-eiscue-ice {
+  background-position: 0 87.17948717948718%;
+}
+.pkm-eiscue-noice {
+  background-position: 2.564102564102564% 87.17948717948718%;
+}
+.pkm-indeedee,
+.pkm-indeedee-m {
+  background-position: 5.128205128205128% 87.17948717948718%;
+}
+.pkm-indeedee-f {
+  background-position: 7.6923076923076925% 87.17948717948718%;
+}
+.pkm-morpeko,
+.pkm-morpeko-full-belly {
+  background-position: 10.256410256410255% 87.17948717948718%;
+}
+.pkm-morpeko-hangry {
+  background-position: 12.82051282051282% 87.17948717948718%;
+}
+.pkm-cufant {
+  background-position: 15.384615384615385% 87.17948717948718%;
+}
+.pkm-copperajah {
+  background-position: 17.94871794871795% 87.17948717948718%;
+}
+.pkm-copperajah-gmax {
+  background-position: 20.51282051282051% 87.17948717948718%;
+}
+.pkm-dracozolt {
+  background-position: 23.076923076923077% 87.17948717948718%;
+}
+.pkm-arctozolt {
+  background-position: 25.64102564102564% 87.17948717948718%;
+}
+.pkm-dracovish {
+  background-position: 28.205128205128204% 87.17948717948718%;
+}
+.pkm-arctovish {
+  background-position: 30.76923076923077% 87.17948717948718%;
+}
+.pkm-duraludon {
+  background-position: 33.33333333333333% 87.17948717948718%;
+}
+.pkm-duraludon-gmax {
+  background-position: 35.8974358974359% 87.17948717948718%;
+}
+.pkm-dreepy {
+  background-position: 38.46153846153847% 87.17948717948718%;
+}
+.pkm-drakloak {
+  background-position: 41.02564102564102% 87.17948717948718%;
+}
+.pkm-dragapult {
+  background-position: 43.58974358974359% 87.17948717948718%;
+}
+.pkm-zacian,
+.pkm-zacian-hero {
+  background-position: 46.15384615384615% 87.17948717948718%;
+}
+.pkm-zacian-crowned {
+  background-position: 48.717948717948715% 87.17948717948718%;
+}
+.pkm-zamazenta,
+.pkm-zamazenta-hero {
+  background-position: 51.28205128205128% 87.17948717948718%;
+}
+.pkm-zamazenta-crowned {
+  background-position: 53.84615384615385% 87.17948717948718%;
+}
+.pkm-eternatus {
+  background-position: 56.41025641025641% 87.17948717948718%;
+}
+.pkm-eternatus-eternamax {
+  background-position: 58.97435897435898% 87.17948717948718%;
+}
+.pkm-kubfu {
+  background-position: 61.53846153846154% 87.17948717948718%;
+}
+.pkm-urshifu,
+.pkm-urshifu-single-strike {
+  background-position: 64.1025641025641% 87.17948717948718%;
+}
+.pkm-urshifu-rapid-strike {
+  background-position: 66.66666666666666% 87.17948717948718%;
+}
+.pkm-urshifu-gmax {
+  background-position: 69.23076923076923% 87.17948717948718%;
+}
+.pkm-urshifu-rapid-strike-gmax {
+  background-position: 71.7948717948718% 87.17948717948718%;
+}
+.pkm-zarude {
+  background-position: 74.35897435897436% 87.17948717948718%;
+}
+.pkm-zarude-dada {
+  background-position: 76.92307692307693% 87.17948717948718%;
+}
+.pkm-regieleki {
+  background-position: 79.48717948717949% 87.17948717948718%;
+}
+.pkm-regidrago {
+  background-position: 82.05128205128204% 87.17948717948718%;
+}
+.pkm-glastrier {
+  background-position: 84.61538461538461% 87.17948717948718%;
+}
+.pkm-spectrier {
+  background-position: 87.17948717948718% 87.17948717948718%;
+}
+.pkm-calyrex {
+  background-position: 89.74358974358975% 87.17948717948718%;
+}
+.pkm-calyrex-ice {
+  background-position: 92.3076923076923% 87.17948717948718%;
+}
+.pkm-calyrex-shadow {
+  background-position: 94.87179487179486% 87.17948717948718%;
+}
+.pkm-wyrdeer {
+  background-position: 97.43589743589743% 87.17948717948718%;
+}
+.pkm-kleavor {
+  background-position: 100% 87.17948717948718%;
+}
+.pkm-ursaluna {
+  background-position: 0 89.74358974358975%;
+}
+.pkm-basculegion {
+  background-position: 2.564102564102564% 89.74358974358975%;
+}
+.pkm-basculegion-f {
+  background-position: 5.128205128205128% 89.74358974358975%;
+}
+.pkm-sneasler {
+  background-position: 7.6923076923076925% 89.74358974358975%;
+}
+.pkm-overqwil {
+  background-position: 10.256410256410255% 89.74358974358975%;
+}
+.pkm-enamorus,
+.pkm-enamorus-incarnate {
+  background-position: 12.82051282051282% 89.74358974358975%;
+}
+.pkm-enamorus-therian {
+  background-position: 15.384615384615385% 89.74358974358975%;
+}
+.pkm-sprigatito {
+  background-position: 17.94871794871795% 89.74358974358975%;
+}
+.pkm-floragato {
+  background-position: 20.51282051282051% 89.74358974358975%;
+}
+.pkm-meowscarada {
+  background-position: 23.076923076923077% 89.74358974358975%;
+}
+.pkm-fuecoco {
+  background-position: 25.64102564102564% 89.74358974358975%;
+}
+.pkm-crocalor {
+  background-position: 28.205128205128204% 89.74358974358975%;
+}
+.pkm-skeledirge {
+  background-position: 30.76923076923077% 89.74358974358975%;
+}
+.pkm-quaxly {
+  background-position: 33.33333333333333% 89.74358974358975%;
+}
+.pkm-quaxwell {
+  background-position: 35.8974358974359% 89.74358974358975%;
+}
+.pkm-quaquaval {
+  background-position: 38.46153846153847% 89.74358974358975%;
+}
+.pkm-lechonk {
+  background-position: 41.02564102564102% 89.74358974358975%;
+}
+.pkm-oinkologne {
+  background-position: 43.58974358974359% 89.74358974358975%;
+}
+.pkm-oinkologne-f {
+  background-position: 46.15384615384615% 89.74358974358975%;
+}
+.pkm-tarountula {
+  background-position: 48.717948717948715% 89.74358974358975%;
+}
+.pkm-spidops {
+  background-position: 51.28205128205128% 89.74358974358975%;
+}
+.pkm-nymble {
+  background-position: 53.84615384615385% 89.74358974358975%;
+}
+.pkm-lokix {
+  background-position: 56.41025641025641% 89.74358974358975%;
+}
+.pkm-pawmi {
+  background-position: 58.97435897435898% 89.74358974358975%;
+}
+.pkm-pawmo {
+  background-position: 61.53846153846154% 89.74358974358975%;
+}
+.pkm-pawmot {
+  background-position: 64.1025641025641% 89.74358974358975%;
+}
+.pkm-tandemaus {
+  background-position: 66.66666666666666% 89.74358974358975%;
+}
+.pkm-maushold {
+  background-position: 69.23076923076923% 89.74358974358975%;
+}
+.pkm-maushold-four {
+  background-position: 71.7948717948718% 89.74358974358975%;
+}
+.pkm-fidough {
+  background-position: 74.35897435897436% 89.74358974358975%;
+}
+.pkm-dachsbun {
+  background-position: 76.92307692307693% 89.74358974358975%;
+}
+.pkm-smoliv {
+  background-position: 79.48717948717949% 89.74358974358975%;
+}
+.pkm-dolliv {
+  background-position: 82.05128205128204% 89.74358974358975%;
+}
+.pkm-arboliva {
+  background-position: 84.61538461538461% 89.74358974358975%;
+}
+.pkm-squawkabilly {
+  background-position: 87.17948717948718% 89.74358974358975%;
+}
+.pkm-squawkabilly-blue {
+  background-position: 89.74358974358975% 89.74358974358975%;
+}
+.pkm-squawkabilly-yellow {
+  background-position: 92.3076923076923% 89.74358974358975%;
+}
+.pkm-squawkabilly-white {
+  background-position: 94.87179487179486% 89.74358974358975%;
+}
+.pkm-nacli {
+  background-position: 97.43589743589743% 89.74358974358975%;
+}
+.pkm-naclstack {
+  background-position: 100% 89.74358974358975%;
+}
+.pkm-garganacl {
+  background-position: 0 92.3076923076923%;
+}
+.pkm-charcadet {
+  background-position: 2.564102564102564% 92.3076923076923%;
+}
+.pkm-armarouge {
+  background-position: 5.128205128205128% 92.3076923076923%;
+}
+.pkm-ceruledge {
+  background-position: 7.6923076923076925% 92.3076923076923%;
+}
+.pkm-tadbulb {
+  background-position: 10.256410256410255% 92.3076923076923%;
+}
+.pkm-bellibolt {
+  background-position: 12.82051282051282% 92.3076923076923%;
+}
+.pkm-wattrel {
+  background-position: 15.384615384615385% 92.3076923076923%;
+}
+.pkm-kilowattrel {
+  background-position: 17.94871794871795% 92.3076923076923%;
+}
+.pkm-maschiff {
+  background-position: 20.51282051282051% 92.3076923076923%;
+}
+.pkm-mabosstiff {
+  background-position: 23.076923076923077% 92.3076923076923%;
+}
+.pkm-shroodle {
+  background-position: 25.64102564102564% 92.3076923076923%;
+}
+.pkm-grafaiai {
+  background-position: 28.205128205128204% 92.3076923076923%;
+}
+.pkm-bramblin {
+  background-position: 30.76923076923077% 92.3076923076923%;
+}
+.pkm-brambleghast {
+  background-position: 33.33333333333333% 92.3076923076923%;
+}
+.pkm-toedscool {
+  background-position: 35.8974358974359% 92.3076923076923%;
+}
+.pkm-toedscruel {
+  background-position: 38.46153846153847% 92.3076923076923%;
+}
+.pkm-klawf {
+  background-position: 41.02564102564102% 92.3076923076923%;
+}
+.pkm-capsakid {
+  background-position: 43.58974358974359% 92.3076923076923%;
+}
+.pkm-scovillain {
+  background-position: 46.15384615384615% 92.3076923076923%;
+}
+.pkm-rellor {
+  background-position: 48.717948717948715% 92.3076923076923%;
+}
+.pkm-rabsca {
+  background-position: 51.28205128205128% 92.3076923076923%;
+}
+.pkm-flittle {
+  background-position: 53.84615384615385% 92.3076923076923%;
+}
+.pkm-espathra {
+  background-position: 56.41025641025641% 92.3076923076923%;
+}
+.pkm-tinkatink {
+  background-position: 58.97435897435898% 92.3076923076923%;
+}
+.pkm-tinkatuff {
+  background-position: 61.53846153846154% 92.3076923076923%;
+}
+.pkm-tinkaton {
+  background-position: 64.1025641025641% 92.3076923076923%;
+}
+.pkm-wiglett {
+  background-position: 66.66666666666666% 92.3076923076923%;
+}
+.pkm-wugtrio {
+  background-position: 69.23076923076923% 92.3076923076923%;
+}
+.pkm-bombirdier {
+  background-position: 71.7948717948718% 92.3076923076923%;
+}
+.pkm-finizen {
+  background-position: 74.35897435897436% 92.3076923076923%;
+}
+.pkm-palafin {
+  background-position: 76.92307692307693% 92.3076923076923%;
+}
+.pkm-palafin-hero {
+  background-position: 79.48717948717949% 92.3076923076923%;
+}
+.pkm-varoom {
+  background-position: 82.05128205128204% 92.3076923076923%;
+}
+.pkm-revavroom {
+  background-position: 84.61538461538461% 92.3076923076923%;
+}
+.pkm-cyclizar {
+  background-position: 87.17948717948718% 92.3076923076923%;
+}
+.pkm-orthworm {
+  background-position: 89.74358974358975% 92.3076923076923%;
+}
+.pkm-glimmet {
+  background-position: 92.3076923076923% 92.3076923076923%;
+}
+.pkm-glimmora {
+  background-position: 94.87179487179486% 92.3076923076923%;
+}
+.pkm-greavard {
+  background-position: 97.43589743589743% 92.3076923076923%;
+}
+.pkm-houndstone {
+  background-position: 100% 92.3076923076923%;
+}
+.pkm-flamigo {
+  background-position: 0 94.87179487179486%;
+}
+.pkm-cetoddle {
+  background-position: 2.564102564102564% 94.87179487179486%;
+}
+.pkm-cetitan {
+  background-position: 5.128205128205128% 94.87179487179486%;
+}
+.pkm-veluza {
+  background-position: 7.6923076923076925% 94.87179487179486%;
+}
+.pkm-dondozo {
+  background-position: 10.256410256410255% 94.87179487179486%;
+}
+.pkm-tatsugiri {
+  background-position: 12.82051282051282% 94.87179487179486%;
+}
+.pkm-tatsugiri-droopy {
+  background-position: 15.384615384615385% 94.87179487179486%;
+}
+.pkm-tatsugiri-sketchy {
+  background-position: 17.94871794871795% 94.87179487179486%;
+}
+.pkm-annihilape {
+  background-position: 20.51282051282051% 94.87179487179486%;
+}
+.pkm-clodsire {
+  background-position: 23.076923076923077% 94.87179487179486%;
+}
+.pkm-farigiraf {
+  background-position: 25.64102564102564% 94.87179487179486%;
+}
+.pkm-dudunsparce {
+  background-position: 28.205128205128204% 94.87179487179486%;
+}
+.pkm-dudunsparce-three-segment {
+  background-position: 30.76923076923077% 94.87179487179486%;
+}
+.pkm-kingambit {
+  background-position: 33.33333333333333% 94.87179487179486%;
+}
+.pkm-greattusk {
+  background-position: 35.8974358974359% 94.87179487179486%;
+}
+.pkm-screamtail {
+  background-position: 38.46153846153847% 94.87179487179486%;
+}
+.pkm-brutebonnet {
+  background-position: 41.02564102564102% 94.87179487179486%;
+}
+.pkm-fluttermane {
+  background-position: 43.58974358974359% 94.87179487179486%;
+}
+.pkm-slitherwing {
+  background-position: 46.15384615384615% 94.87179487179486%;
+}
+.pkm-sandyshocks {
+  background-position: 48.717948717948715% 94.87179487179486%;
+}
+.pkm-irontreads {
+  background-position: 51.28205128205128% 94.87179487179486%;
+}
+.pkm-ironbundle {
+  background-position: 53.84615384615385% 94.87179487179486%;
+}
+.pkm-ironhands {
+  background-position: 56.41025641025641% 94.87179487179486%;
+}
+.pkm-ironjugulis {
+  background-position: 58.97435897435898% 94.87179487179486%;
+}
+.pkm-ironmoth {
+  background-position: 61.53846153846154% 94.87179487179486%;
+}
+.pkm-ironthorns {
+  background-position: 64.1025641025641% 94.87179487179486%;
+}
+.pkm-frigibax {
+  background-position: 66.66666666666666% 94.87179487179486%;
+}
+.pkm-arctibax {
+  background-position: 69.23076923076923% 94.87179487179486%;
+}
+.pkm-baxcalibur {
+  background-position: 71.7948717948718% 94.87179487179486%;
+}
+.pkm-gimmighoul {
+  background-position: 74.35897435897436% 94.87179487179486%;
+}
+.pkm-gimmighoul-roaming {
+  background-position: 76.92307692307693% 94.87179487179486%;
+}
+.pkm-gholdengo {
+  background-position: 79.48717948717949% 94.87179487179486%;
+}
+.pkm-wochien {
+  background-position: 82.05128205128204% 94.87179487179486%;
+}
+.pkm-chienpao {
+  background-position: 84.61538461538461% 94.87179487179486%;
+}
+.pkm-tinglu {
+  background-position: 87.17948717948718% 94.87179487179486%;
+}
+.pkm-chiyu {
+  background-position: 89.74358974358975% 94.87179487179486%;
+}
+.pkm-roaringmoon {
+  background-position: 92.3076923076923% 94.87179487179486%;
+}
+.pkm-ironvaliant {
+  background-position: 94.87179487179486% 94.87179487179486%;
+}
+.pkm-koraidon {
+  background-position: 97.43589743589743% 94.87179487179486%;
+}
+.pkm-miraidon {
+  background-position: 100% 94.87179487179486%;
+}
+.pkm-walkingwake {
+  background-position: 0 97.43589743589743%;
+}
+.pkm-ironleaves {
+  background-position: 2.564102564102564% 97.43589743589743%;
+}
+.pkm-munkidori {
+  background-position: 5.128205128205128% 97.43589743589743%;
+}
+.pkm-okidogi {
+  background-position: 7.6923076923076925% 97.43589743589743%;
+}
+.pkm-fezandipiti {
+  background-position: 10.256410256410255% 97.43589743589743%;
+}
+.pkm-ogerpon {
+  background-position: 12.82051282051282% 97.43589743589743%;
+}
+.pkm-terapagos {
+  background-position: 15.384615384615385% 97.43589743589743%;
+}

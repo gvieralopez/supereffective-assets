@@ -1,0 +1,255 @@
+[
+  {
+    "id": "national",
+    "name": "National",
+    "region": null,
+    "gameSets": [
+      "home",
+      "gs",
+      "c",
+      "rs",
+      "e",
+      "frlg",
+      "dp",
+      "pt",
+      "hgss",
+      "bw",
+      "b2w2",
+      "xy",
+      "oras",
+      "bdsp"
+    ],
+    "baseDex": null
+  },
+  {
+    "id": "kanto",
+    "name": "Kanto Pokédex",
+    "region": "kanto",
+    "gameSets": ["rb", "y", "frlg"],
+    "baseDex": null
+  },
+  {
+    "id": "johto",
+    "name": "Johto Pokédex",
+    "region": "johto",
+    "gameSets": ["gs", "c"],
+    "baseDex": null
+  },
+  {
+    "id": "hoenn",
+    "name": "Hoenn Pokédex",
+    "region": "hoenn",
+    "gameSets": ["rs", "e"],
+    "baseDex": null
+  },
+  {
+    "id": "sinnoh",
+    "name": "Sinnoh Pokédex",
+    "region": "sinnoh",
+    "gameSets": ["dp", "bdsp"],
+    "baseDex": null
+  },
+  {
+    "id": "sinnoh-pt",
+    "name": "Sinnoh Pokédex",
+    "region": "sinnoh",
+    "gameSets": ["pt"],
+    "baseDex": null
+  },
+  {
+    "id": "johto-hgss",
+    "name": "Johto Pokédex",
+    "region": "johto",
+    "gameSets": ["hgss"],
+    "baseDex": null
+  },
+  {
+    "id": "unova",
+    "name": "Unova Pokédex",
+    "region": "unova",
+    "gameSets": ["bw"],
+    "baseDex": null
+  },
+  {
+    "id": "unova-b2w2",
+    "name": "Unova Pokédex",
+    "gameSets": ["b2w2"],
+    "region": "unova",
+    "baseDex": null
+  },
+  {
+    "id": "kalos-central",
+    "name": "Central Kalos Pokédex",
+    "region": "kalos",
+    "gameSets": ["xy"],
+    "baseDex": null
+  },
+  {
+    "id": "kalos-coastal",
+    "name": "Coastal Kalos Pokédex",
+    "region": "kalos",
+    "gameSets": ["xy"],
+    "baseDex": null
+  },
+  {
+    "id": "kalos-mountain",
+    "name": "Mountain Kalos Pokédex",
+    "region": "kalos",
+    "gameSets": ["xy"],
+    "baseDex": null
+  },
+  {
+    "id": "hoenn-oras",
+    "name": "Hoenn Pokédex",
+    "region": "hoenn",
+    "gameSets": ["oras"],
+    "baseDex": null
+  },
+  {
+    "id": "alola",
+    "name": "Alola Pokédex",
+    "region": "alola",
+    "gameSets": ["sm"],
+    "baseDex": null
+  },
+  {
+    "id": "alola-melemele",
+    "name": "Melemele Island Pokédex",
+    "region": "alola",
+    "gameSets": ["sm"],
+    "baseDex": "alola"
+  },
+  {
+    "id": "alola-akala",
+    "name": "Akala Island Pokédex",
+    "region": "alola",
+    "gameSets": ["sm"],
+    "baseDex": "alola"
+  },
+  {
+    "id": "alola-ulaula",
+    "name": "Ula'ula Island Pokédex",
+    "region": "alola",
+    "gameSets": ["sm"],
+    "baseDex": "alola"
+  },
+  {
+    "id": "alola-poni",
+    "name": "Poni Island Pokédex",
+    "region": "alola",
+    "gameSets": ["sm"],
+    "baseDex": "alola"
+  },
+  {
+    "id": "alola-usum",
+    "name": "Alola Pokédex",
+    "region": "alola",
+    "gameSets": ["usum"],
+    "baseDex": null
+  },
+  {
+    "id": "alola-melemele-usum",
+    "name": "Melemele Island Pokédex",
+    "region": "alola",
+    "gameSets": ["usum"],
+    "baseDex": "alola-usum"
+  },
+  {
+    "id": "alola-akala-usum",
+    "name": "Akala Island Pokédex",
+    "region": "alola",
+    "gameSets": ["usum"],
+    "baseDex": "alola-usum"
+  },
+  {
+    "id": "alola-ulaula-usum",
+    "name": "Ula'ula Island Pokédex",
+    "region": "alola",
+    "gameSets": ["usum"],
+    "baseDex": "alola-usum"
+  },
+  {
+    "id": "alola-poni-usum",
+    "name": "Poni Island Pokédex",
+    "region": "alola",
+    "gameSets": ["usum"],
+    "baseDex": "alola-usum"
+  },
+  {
+    "id": "kanto-lgpe",
+    "name": "Kanto Pokédex",
+    "region": "kanto",
+    "gameSets": ["lgpe"],
+    "baseDex": null
+  },
+  {
+    "id": "galar",
+    "name": "Galar Pokédex",
+    "region": "galar",
+    "gameSets": ["swsh"],
+    "baseDex": null
+  },
+  {
+    "id": "galar-isle-armor",
+    "name": "Isle of Armor Pokédex",
+    "region": "galar",
+    "gameSets": ["swsh"],
+    "baseDex": "galar"
+  },
+  {
+    "id": "galar-crown-tundra",
+    "name": "Crown of Tundra Pokédex",
+    "region": "galar",
+    "gameSets": ["swsh"],
+    "baseDex": "galar"
+  },
+  {
+    "id": "hisui",
+    "name": "Hisui Pokédex",
+    "region": "hisui",
+    "gameSets": ["la"],
+    "baseDex": null
+  },
+  {
+    "id": "hisui-obsidian",
+    "name": "Obsidian Fieldlands Pokédex",
+    "region": "hisui",
+    "gameSets": ["la"],
+    "baseDex": "hisui"
+  },
+  {
+    "id": "hisui-crimson",
+    "name": "Crimson Mirelands Pokédex",
+    "region": "hisui",
+    "gameSets": ["la"],
+    "baseDex": "hisui"
+  },
+  {
+    "id": "hisui-cobalt",
+    "name": "Cobalt Coastlands Pokédex",
+    "region": "hisui",
+    "gameSets": ["la"],
+    "baseDex": "hisui"
+  },
+  {
+    "id": "hisui-coronet",
+    "name": "Coronet Highlands Pokédex",
+    "region": "hisui",
+    "gameSets": ["la"],
+    "baseDex": "hisui"
+  },
+  {
+    "id": "hisui-alabaster",
+    "name": "Alabaster Icelands Pokédex",
+    "region": "hisui",
+    "gameSets": ["la"],
+    "baseDex": "hisui"
+  },
+  {
+    "id": "paldea",
+    "name": "Paldea Pokédex",
+    "region": "paldea",
+    "gameSets": ["sv"],
+    "baseDex": null
+  }
+]

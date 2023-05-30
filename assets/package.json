@@ -1,0 +1,13 @@
+{
+  "name": "@pkg/assets",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "fix-data": "node ./scripts/fix-data.cjs && cd ../ && pnpm pretty"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "glob": "^10.2.6",
+    "typescript": "^5.0.4"
+  }
+}
