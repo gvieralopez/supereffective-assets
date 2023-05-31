@@ -1696,12 +1696,8 @@
           ]
         },
         {
-          "title": "Paldean Forms",
+          "title": "Paldea Alternate",
           "pokemon": [
-            "tauros-paldea",
-            "tauros-paldea-fire",
-            "tauros-paldea-water",
-            "wooper-paldea",
             "oinkologne-f",
             "maushold-four",
             "squawkabilly-blue",
@@ -1711,6 +1707,15 @@
             "tatsugiri-sketchy",
             "dudunsparce-three-segment",
             "gimmighoul-roaming"
+          ]
+        },
+        {
+          "title": "Paldean Forms",
+          "pokemon": [
+            "tauros-paldea",
+            "tauros-paldea-fire",
+            "tauros-paldea-water",
+            "wooper-paldea"
           ]
         }
       ]
