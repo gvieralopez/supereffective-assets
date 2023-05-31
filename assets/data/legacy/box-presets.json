@@ -3411,7 +3411,17 @@
             { "pid": "urshifu-rapid-strike", "gmax": true }
           ]
         },
-        { "title": "Gen 9 Forms", "pokemon": [] },
+        { "title": "Gen 9 Forms", "pokemon": [
+            "maushold-four",
+            "squawkabilly-blue",
+            "squawkabilly-yellow",
+            "squawkabilly-white",
+            "tatsugiri-droopy",
+            "tatsugiri-sketchy",
+            "dudunsparce-three-segment",
+            "gimmighoul-roaming"
+          ] 
+        },
         {
           "title": "Alolan Forms",
           "pokemon": [
@@ -3487,15 +3497,7 @@
             "tauros-paldea",
             "tauros-paldea-fire",
             "tauros-paldea-water",
-            "wooper-paldea",
-            "maushold-four",
-            "squawkabilly-blue",
-            "squawkabilly-yellow",
-            "squawkabilly-white",
-            "tatsugiri-droopy",
-            "tatsugiri-sketchy",
-            "dudunsparce-three-segment",
-            "gimmighoul-roaming"
+            "wooper-paldea"           
           ]
         }
       ]
