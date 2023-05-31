@@ -66152,7 +66152,7 @@
     "obtainableIn": ["go"],
     "versionExclusiveIn": [],
     "eventOnlyIn": [],
-    "storableIn": ["go", "home"],
+    "storableIn": ["go", "home", "sv"],
     "shinyReleased": false,
     "shinyBase": null,
     "baseSpecies": "Gimmighoul",
